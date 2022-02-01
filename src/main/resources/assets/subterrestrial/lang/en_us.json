@@ -1,0 +1,39 @@
+{
+  "biome.subterrestrial:default_underground_cabin": "Underground Cabin",
+  "biome.subterrestrial:deepslate_underground_cabin": "Deepslate Underground Cabin",
+  "biome.subterrestrial:desert_underground_cabin": "Desert Underground Cabin",
+  "biome.subterrestrial:ice_underground_cabin": "Ice Underground Cabin",
+  "biome.subterrestrial:jungle_underground_cabin": "Jungle Underground Cabin",
+  "biome.subterrestrial:ocean_underground_cabin": "Ocean Underground Cabin",
+
+  "text.autoconfig.subterrestrial.title": "Subterrestrial Config",
+
+  "text.autoconfig.subterrestrial.option.generateCabins_v1":  "Generate Cabins",
+
+  "text.autoconfig.subterrestrial.option.cabinConfig_v1":  "Cabin Config",
+
+  "text.autoconfig.subterrestrial.option.CabinConfig":  "Cabin",
+  "text.autoconfig.subterrestrial.option.CabinConfig.name":  "Name",
+  "text.autoconfig.subterrestrial.option.CabinConfig.generate":  "Generate",
+  "text.autoconfig.subterrestrial.option.CabinConfig.spacing":  "Spacing",
+  "text.autoconfig.subterrestrial.option.CabinConfig.separation":  "Separation",
+  "text.autoconfig.subterrestrial.option.CabinConfig.minHeight":  "Min Height",
+  "text.autoconfig.subterrestrial.option.CabinConfig.maxHeight":  "Max Height",
+  "text.autoconfig.subterrestrial.option.CabinConfig.intactWeight":  "Intact Weight",
+  "text.autoconfig.subterrestrial.option.CabinConfig.brokenWeight":  "Broken Weight",
+
+  "text.autoconfig.subterrestrial.option.moddedLootInChests_v1":  "Spawn Modded Loot in Chests",
+
+  "text.autoconfig.subterrestrial.option.CabinConfig.spacing.@Tooltip[0]": "This value should never be equal to or lower than the cabin separation",
+  "text.autoconfig.subterrestrial.option.CabinConfig.spacing.@Tooltip[1]": "value.",
+  "text.autoconfig.subterrestrial.option.CabinConfig.separation.@Tooltip[0]": "This value should never be equal to or greater than the cabin spacing",
+  "text.autoconfig.subterrestrial.option.CabinConfig.separation.@Tooltip[1]": "value.",
+
+  "text.autoconfig.subterrestrial.option.CabinConfig.intactWeight.@Tooltip": "The chance of an intact cabin spawning over other cabin variants.",
+
+  "text.autoconfig.subterrestrial.option.CabinConfig.brokenWeight.@Tooltip": "The chance of a broken cabin spawning over other cabin variants.",
+
+  "text.autoconfig.subterrestrial.option.moddedLootInChests_v1.@Tooltip[0]": "Should loot from other mods, such as tin ingots, be included in cabin",
+  "text.autoconfig.subterrestrial.option.moddedLootInChests_v1.@Tooltip[1]": "chests? (Does not affect cabins that have already been generated in your",
+  "text.autoconfig.subterrestrial.option.moddedLootInChests_v1.@Tooltip[2]": "world)."
+}
