@@ -17,7 +17,7 @@ public class SubterrestrialUtils {
     }
 
     public static List<Pair<Function<StructurePool.Projection, ? extends StructurePoolElement>, Integer>> getMainChest() {
-        if (modLoaded("the_extractinator")) {
+        if (Subterrestrial.CONFIG.extractinatorSupport_v1 && modLoaded("the_extractinator")) {
             return ImmutableList.of(
                     new Pair<>(StructurePoolElement.ofSingle(Subterrestrial.MOD_ID + ":cabin/main/main_loot_extractinator"), 1)
             );

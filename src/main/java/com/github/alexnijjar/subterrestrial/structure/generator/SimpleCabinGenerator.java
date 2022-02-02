@@ -24,10 +24,10 @@ public class SimpleCabinGenerator {
             }
         }
 
-        registerPool(name, "_intact", "top");
-        registerPool(name, "_intact", "bottom");
-        registerPool(name, "", "top");
-        registerPool(name, "", "bottom");
+        registerIntactPool(name, "top");
+        registerIntactPool(name, "bottom");
+        registerPool(name, "top");
+        registerPool(name, "bottom");
 
         return StructurePools.register(
                 new StructurePool(
@@ -52,15 +52,28 @@ public class SimpleCabinGenerator {
         );
     }
 
-    public static void registerPool(String name, String type, String location) {
+    public static void registerPool(String name, String location) {
         StructurePools.register(
                 new StructurePool(
-                        new SubterrestrialIdentifier(name + type + "_cabin_" + location),
+                        new SubterrestrialIdentifier(name + "_cabin_" + location),
                         new Identifier("empty"),
                         ImmutableList.of(
                                 new Pair<>(StructurePoolElement.ofSingle(Subterrestrial.MOD_ID + ":cabin/" + name + "/cabin_" + location + "_2"), 1),
                                 new Pair<>(StructurePoolElement.ofSingle(Subterrestrial.MOD_ID + ":cabin/" + name + "/cabin_" + location + "_3"), 1),
                                 new Pair<>(StructurePoolElement.ofSingle(Subterrestrial.MOD_ID + ":cabin/" + name + "/cabin_" + location + "_4"), 1)
+                        ),
+                        StructurePool.Projection.RIGID
+                )
+        );
+    }
+
+    public static void registerIntactPool(String name, String location) {
+        StructurePools.register(
+                new StructurePool(
+                        new SubterrestrialIdentifier(name + "_intact_cabin_" + location),
+                        new Identifier("empty"),
+                        ImmutableList.of(
+                                new Pair<>(StructurePoolElement.ofSingle(Subterrestrial.MOD_ID + ":cabin/" + name + "/cabin_" + location + "_1"), 1)
                         ),
                         StructurePool.Projection.RIGID
                 )
