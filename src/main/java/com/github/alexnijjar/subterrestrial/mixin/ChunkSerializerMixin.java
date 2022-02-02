@@ -21,7 +21,7 @@ import java.util.Map;
 @Mixin(ChunkSerializer.class)
 public class ChunkSerializerMixin {
 
-// suppresses the "Unknown structure start" error.
+    // suppresses the "Unknown structure start" error.
     @Inject(method = "readStructureStarts", at = @At("HEAD"))
     private static void readStructureStarts(StructureContext context, NbtCompound nbt, long worldSeed, CallbackInfoReturnable<Map<StructureFeature<?>, StructureStart<?>>> info) {
 

@@ -2,7 +2,6 @@ package com.github.alexnijjar.subterrestrial.structure;
 
 import com.github.alexnijjar.subterrestrial.Subterrestrial;
 import com.github.alexnijjar.subterrestrial.config.CabinConfig;
-import com.github.alexnijjar.subterrestrial.structure.generator.OceanCabinGenerator;
 import com.github.alexnijjar.subterrestrial.structure.generator.SimpleCabinGenerator;
 import com.github.alexnijjar.subterrestrial.util.SubterrestrialIdentifier;
 import com.github.alexnijjar.subterrestrial.util.SubterrestrialUtils;
@@ -35,7 +34,7 @@ public class SubterrestrialStructures {
             for (CabinConfig config : Subterrestrial.CONFIG.cabinConfig_v1) {
 
                 String name = config.name.replace("_cabin", "");
-                StructureFeature<StructurePoolFeatureConfig> structure = new CabinStructure(StructurePoolFeatureConfig.CODEC, config.minHeight, config.maxHeight);
+                StructureFeature<StructurePoolFeatureConfig> structure = new CabinStructure(StructurePoolFeatureConfig.CODEC, config.name);
                 ConfiguredStructureFeature<?, ?> configured;
 
                 FabricStructureBuilder.create(new SubterrestrialIdentifier(name + "_underground_cabin"), structure)
@@ -47,13 +46,8 @@ public class SubterrestrialStructures {
                         .adjustsSurface()
                         .register();
 
-                if (!name.equals("ocean")) {
-                    StructurePool pool = SimpleCabinGenerator.createSimpleCabin(name);
-                    configured = structure.configure(new StructurePoolFeatureConfig(() -> pool, 1));
-                }
-                else
-                    configured = structure.configure(new StructurePoolFeatureConfig(() -> OceanCabinGenerator.STARTING_POOL, 1));
-
+                StructurePool pool = SimpleCabinGenerator.createSimpleCabin(name);
+                configured = structure.configure(new StructurePoolFeatureConfig(() -> pool, 1));
                 Registry.register(BuiltinRegistries.CONFIGURED_STRUCTURE_FEATURE, new SubterrestrialIdentifier("configured_" + name + "_cabin"), configured);
 
                 // Add structure spawning to biomes.

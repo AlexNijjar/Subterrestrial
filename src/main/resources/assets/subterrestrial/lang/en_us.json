@@ -1,11 +1,4 @@
 {
-  "biome.subterrestrial:default_underground_cabin": "Underground Cabin",
-  "biome.subterrestrial:deepslate_underground_cabin": "Deepslate Underground Cabin",
-  "biome.subterrestrial:desert_underground_cabin": "Desert Underground Cabin",
-  "biome.subterrestrial:ice_underground_cabin": "Ice Underground Cabin",
-  "biome.subterrestrial:jungle_underground_cabin": "Jungle Underground Cabin",
-  "biome.subterrestrial:ocean_underground_cabin": "Ocean Underground Cabin",
-
   "text.autoconfig.subterrestrial.title": "Subterrestrial Config",
 
   "text.autoconfig.subterrestrial.option.generateCabins_v1":  "Generate Cabins",
@@ -23,6 +16,7 @@
   "text.autoconfig.subterrestrial.option.CabinConfig.brokenWeight":  "Broken Weight",
 
   "text.autoconfig.subterrestrial.option.moddedLootInChests_v1":  "Spawn Modded Loot in Chests",
+  "text.autoconfig.subterrestrial.option.extractinatorSupport_v1":  "Extractinator Support",
 
   "text.autoconfig.subterrestrial.option.CabinConfig.spacing.@Tooltip[0]": "This value should never be equal to or lower than the cabin separation",
   "text.autoconfig.subterrestrial.option.CabinConfig.spacing.@Tooltip[1]": "value.",
@@ -35,5 +29,8 @@
 
   "text.autoconfig.subterrestrial.option.moddedLootInChests_v1.@Tooltip[0]": "Should loot from other mods, such as tin ingots, be included in cabin",
   "text.autoconfig.subterrestrial.option.moddedLootInChests_v1.@Tooltip[1]": "chests? (Does not affect cabins that have already been generated in your",
-  "text.autoconfig.subterrestrial.option.moddedLootInChests_v1.@Tooltip[2]": "world)."
+  "text.autoconfig.subterrestrial.option.moddedLootInChests_v1.@Tooltip[2]": "world).",
+
+  "text.autoconfig.subterrestrial.option.extractinatorSupport_v1.@Tooltip[0]": "Replaces the main chest with an extractinator if the mod \"The ",
+  "text.autoconfig.subterrestrial.option.extractinatorSupport_v1.@Tooltip[1]": "Extractinator\" is installed."
 }
