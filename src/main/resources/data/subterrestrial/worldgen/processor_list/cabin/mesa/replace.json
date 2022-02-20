@@ -1,0 +1,1212 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:sandstone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:smooth_sandstone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_red_sandstone"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:chiseled_sandstone",
+            "predicate_type": "minecraft:block_match"
+          },
+          "output_state": {
+            "Name": "minecraft:chiseled_red_sandstone"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_slab",
+              "Properties": {
+                "type": "top"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_slab",
+            "Properties": {
+              "type": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_slab",
+              "Properties": {
+                "type": "bottom"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_slab",
+            "Properties": {
+              "type": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_red_sandstone_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_red_sandstone_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_red_sandstone_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_red_sandstone_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "top"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_red_sandstone_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "top"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_red_sandstone_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "top"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_red_sandstone_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:smooth_sandstone_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "top"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:smooth_red_sandstone_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall"
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "north": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "north": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "east": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "east": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "south": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "south": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "west": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "west": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "north": "tall",
+                "east": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "north": "tall",
+              "east": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "east": "tall",
+                "south": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "east": "tall",
+              "south": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "south": "tall",
+                "west": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "south": "tall",
+              "west": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "west": "tall",
+                "north": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "west": "tall",
+              "north": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "north": "tall",
+                "south": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "north": "tall",
+              "south": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "east": "tall",
+                "west": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "east": "tall",
+              "west": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "north": "tall",
+                "east": "tall",
+                "south": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "north": "tall",
+              "east": "tall",
+              "south": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "east": "tall",
+                "south": "tall",
+                "west": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "east": "tall",
+              "south": "tall",
+              "west": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "south": "tall",
+                "west": "tall",
+                "north": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "south": "tall",
+              "west": "tall",
+              "north": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "west": "tall",
+                "north": "tall",
+                "east": "tall",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "west": "tall",
+              "north": "tall",
+              "east": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "north": "tall",
+                "east": "tall",
+                "south": "tall"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "north": "tall",
+              "east": "tall",
+              "south": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "east": "tall",
+                "south": "tall",
+                "west": "tall"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "east": "tall",
+              "south": "tall",
+              "west": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "south": "tall",
+                "west": "tall",
+                "north": "tall"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "south": "tall",
+              "west": "tall",
+              "north": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "west": "tall",
+                "north": "tall",
+                "east": "tall"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "west": "tall",
+              "north": "tall",
+              "east": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "north": "tall"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "north": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "east": "tall"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "east": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "south": "tall"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "south": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "west": "tall"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "west": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "north": "low",
+                "south": "low",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "north": "low",
+              "south": "low",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "east": "low",
+                "west": "low",
+                "up": "false"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "east": "low",
+              "west": "low",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "north": "tall",
+                "east": "low",
+                "south": "tall"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "north": "tall",
+              "east": "low",
+              "south": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "north": "tall",
+                "south": "tall",
+                "west": "low"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "north": "tall",
+              "south": "tall",
+              "west": "low"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "north": "low",
+                "east": "tall",
+                "west": "tall"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "north": "low",
+              "east": "tall",
+              "west": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "north": "low",
+                "west": "tall"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "north": "low",
+              "west": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "north": "low",
+                "east": "tall"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "north": "low",
+              "east": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "east": "tall",
+                "south": "low",
+                "west": "tall"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "east": "tall",
+              "south": "low",
+              "west": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "south": "low",
+                "west": "low"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "south": "low",
+              "west": "low"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:sandstone_wall",
+              "Properties": {
+                "east": "tall",
+                "south": "low"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone_wall",
+            "Properties": {
+              "east": "tall",
+              "south": "low"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lime_wool"
+          },
+          "output_state": {
+            "Name": "minecraft:red_sandstone"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "subterrestrial:cabin/ocean/base",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/ocean/base_lower_0",
+        "processors": "subterrestrial:cabin/ocean/degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

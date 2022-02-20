@@ -2,16 +2,14 @@ package com.github.alexnijjar.subterrestrial.structure;
 
 import com.github.alexnijjar.subterrestrial.Subterrestrial;
 import com.github.alexnijjar.subterrestrial.config.CabinConfig;
-import com.github.alexnijjar.subterrestrial.structure.generator.SimpleCabinGenerator;
 import com.github.alexnijjar.subterrestrial.util.SubterrestrialIdentifier;
 import com.github.alexnijjar.subterrestrial.util.SubterrestrialUtils;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectionContext;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.fabricmc.fabric.api.structure.v1.FabricStructureBuilder;
+import net.minecraft.structure.PlainsVillageData;
 import net.minecraft.structure.pool.StructurePool;
-import net.minecraft.structure.pool.StructurePools;
-import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.BuiltinRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.RegistryKey;
@@ -22,31 +20,35 @@ import net.minecraft.world.gen.feature.ConfiguredStructureFeature;
 import net.minecraft.world.gen.feature.StructureFeature;
 import net.minecraft.world.gen.feature.StructurePoolFeatureConfig;
 
+import java.util.Map;
 import java.util.function.Predicate;
 
 public class SubterrestrialStructures {
 
     public static void register() {
 
-        if (Subterrestrial.CONFIG.generateCabins_v1) {
+        if (Subterrestrial.CONFIG.generateCabins) {
 
             int salt = 951481806;
-            for (CabinConfig config : Subterrestrial.CONFIG.cabinConfig_v1) {
+            for (Map.Entry<String, CabinConfig> entry : SubterrestrialUtils.getCabinList().entrySet()) {
+                String key = entry.getKey();
+                CabinConfig value = entry.getValue();
 
-                String name = config.name.replace("_cabin", "");
-                StructureFeature<StructurePoolFeatureConfig> structure = new CabinStructure(StructurePoolFeatureConfig.CODEC, config.name);
+                if (!value.enabled) continue;
+                String name = key.replace("_cabin", "");
+                StructureFeature<StructurePoolFeatureConfig> structure = new CabinStructure(StructurePoolFeatureConfig.CODEC, name);
                 ConfiguredStructureFeature<?, ?> configured;
 
                 FabricStructureBuilder.create(new SubterrestrialIdentifier(name + "_underground_cabin"), structure)
                         .step(GenerationStep.Feature.UNDERGROUND_STRUCTURES)
                         .defaultConfig(new StructureConfig(
-                                config.spacing,
-                                config.separation,
+                                value.spacing,
+                                value.separation,
                                 salt))
                         .adjustsSurface()
                         .register();
 
-                StructurePool pool = SimpleCabinGenerator.createSimpleCabin(name);
+                StructurePool pool = PlainsVillageData.STRUCTURE_POOLS;
                 configured = structure.configure(new StructurePoolFeatureConfig(() -> pool, 1));
                 Registry.register(BuiltinRegistries.CONFIGURED_STRUCTURE_FEATURE, new SubterrestrialIdentifier("configured_" + name + "_cabin"), configured);
 
@@ -57,19 +59,11 @@ public class SubterrestrialStructures {
                                 Registry.CONFIGURED_STRUCTURE_FEATURE_KEY,
                                 BuiltinRegistries.CONFIGURED_STRUCTURE_FEATURE.getId(configured))
                 );
-
                 salt++;
             }
 
             // Used in all cabins.
-            StructurePools.register(
-                    new StructurePool(
-                            new SubterrestrialIdentifier("cabin_main_loot"),
-                            new Identifier("empty"),
-                            SubterrestrialUtils.getMainChest(),
-                            StructurePool.Projection.RIGID
-                    )
-            );
+            SubterrestrialUtils.registerPool(SubterrestrialUtils.getMainChest(), "main");
         }
     }
 
@@ -93,14 +87,22 @@ public class SubterrestrialStructures {
             case "desert" -> {
                 return BiomeSelectors.categories(
                         Biome.Category.DESERT,
-                        Biome.Category.SAVANNA,
+                        Biome.Category.SAVANNA
+                );
+            }
+            case "mesa" -> {
+                return BiomeSelectors.categories(
                         Biome.Category.MESA
+                );
+            }
+            case "taiga" -> {
+                return BiomeSelectors.categories(
+                        Biome.Category.TAIGA
                 );
             }
             case "ice" -> {
                 return BiomeSelectors.categories(
-                        Biome.Category.ICY,
-                        Biome.Category.TAIGA
+                        Biome.Category.ICY
                 );
             }
             case "jungle" -> {

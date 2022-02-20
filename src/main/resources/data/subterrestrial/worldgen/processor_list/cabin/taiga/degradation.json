@@ -1,0 +1,425 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_planks",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_slab",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_stairs",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_fence",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:stripped_spruce_log",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_log",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_planks",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_slab",
+            "Properties": {
+              "type": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_planks",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_slab",
+            "Properties": {
+              "type": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:spruce_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:bookshelf",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:anvil",
+              "Properties": {
+                "facing": "north"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:damaged_anvil",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:anvil",
+              "Properties": {
+                "facing": "east"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:damaged_anvil",
+            "Properties": {
+              "facing": "east"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:anvil",
+              "Properties": {
+                "facing": "south"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:damaged_anvil",
+            "Properties": {
+              "facing": "south"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:anvil",
+              "Properties": {
+                "facing": "west"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:damaged_anvil",
+            "Properties": {
+              "facing": "west"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lantern"
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:torch"
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:wall_torch"
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:iron_block"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "minecraft:carpets"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lime_wool"
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_planks"
+          }
+        }
+      ]
+    }
+  ]
+}

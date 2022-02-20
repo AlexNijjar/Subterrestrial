@@ -1,0 +1,481 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lime_wool"
+          },
+          "output_state": {
+            "Name": "minecraft:jungle_planks"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:glow_lichen"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:grass_block",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:moss_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:jungle_log",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:moss_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:stripped_jungle_log",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:moss_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:jungle_slab",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:moss_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:vine",
+              "Properties": {
+                "north": "true"
+              }
+            },
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:glow_lichen",
+            "Properties": {
+              "north": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:vine",
+              "Properties": {
+                "east": "true"
+              }
+            },
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:glow_lichen",
+            "Properties": {
+              "east": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:vine",
+              "Properties": {
+                "south": "true"
+              }
+            },
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:glow_lichen",
+            "Properties": {
+              "south": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:vine",
+              "Properties": {
+                "west": "true"
+              }
+            },
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:glow_lichen",
+            "Properties": {
+              "west": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:vine",
+              "Properties": {
+                "north": "true"
+              }
+            },
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "facing": "north",
+              "age": "2"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:vine",
+              "Properties": {
+                "east": "true"
+              }
+            },
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "facing": "east",
+              "age": "2"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:vine",
+              "Properties": {
+                "south": "true"
+              }
+            },
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "facing": "south",
+              "age": "2"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:vine",
+              "Properties": {
+                "west": "true"
+              }
+            },
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "facing": "west",
+              "age": "2"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:vine",
+              "Properties": {
+                "north": "true"
+              }
+            },
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "facing": "north",
+              "age": "0"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:vine",
+              "Properties": {
+                "east": "true"
+              }
+            },
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "facing": "east",
+              "age": "0"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:vine",
+              "Properties": {
+                "south": "true"
+              }
+            },
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "facing": "south",
+              "age": "0"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:vine",
+              "Properties": {
+                "west": "true"
+              }
+            },
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:cocoa",
+            "Properties": {
+              "facing": "west",
+              "age": "0"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:moss_carpet",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:grass"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:moss_carpet",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:bamboo",
+            "Properties": {
+              "leaves": "large"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:moss_carpet",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:big_dripleaf"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:moss_carpet",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:small_dripleaf",
+            "Properties": {
+              "half": "upper",
+              "facing": "north"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:moss_carpet",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:small_dripleaf",
+            "Properties": {
+              "half": "upper",
+              "facing": "east"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:moss_carpet",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:small_dripleaf",
+            "Properties": {
+              "half": "upper",
+              "facing": "south"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:moss_carpet",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:small_dripleaf",
+            "Properties": {
+              "half": "upper",
+              "facing": "west"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:moss_carpet",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:azalea"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:moss_carpet",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:flowering_azalea"
+          }
+        }
+      ]
+    }
+  ]
+}

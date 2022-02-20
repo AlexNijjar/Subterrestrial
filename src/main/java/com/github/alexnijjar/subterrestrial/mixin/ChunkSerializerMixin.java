@@ -28,14 +28,11 @@ public class ChunkSerializerMixin {
         NbtCompound nbtCompound = nbt.getCompound("starts");
         List<String> itemsToRemove = new ArrayList<>();
 
-        for (String key : nbtCompound.getKeys()) {
-            if (key.contains("the_extractinator:")) {
+        for (String key : nbtCompound.getKeys())
+            if (key.contains("the_extractinator:"))
                 itemsToRemove.add(key);
-            }
-        }
 
-        for (String key : itemsToRemove)
-            nbtCompound.remove(key);
+        itemsToRemove.forEach(nbtCompound::remove);
     }
 
     // suppresses the "Found reference to unknown structure" warning.
@@ -45,12 +42,10 @@ public class ChunkSerializerMixin {
         NbtCompound nbtCompound = nbt.getCompound("References");
         List<String> itemsToRemove = new ArrayList<>();
 
-        for (String key : nbtCompound.getKeys()) {
-            if (key.contains("the_extractinator:")) {
+        for (String key : nbtCompound.getKeys())
+            if (key.contains("the_extractinator:"))
                 itemsToRemove.add(key);
-            }
-        }
-        for (String key : itemsToRemove)
-            nbtCompound.remove(key);
+
+        itemsToRemove.forEach(nbtCompound::remove);
     }
 }

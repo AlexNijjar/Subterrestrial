@@ -1,0 +1,114 @@
+{
+  "name": "subterrestrial:cabin/deepslate/base",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/deepslate/base_lower_0",
+        "processors": "subterrestrial:cabin/deepslate/degradation_replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/deepslate/base_0",
+        "processors": "subterrestrial:cabin/deepslate/degradation_replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/deepslate/base_upper_0",
+        "processors": "subterrestrial:cabin/deepslate/degradation_replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/deepslate/base_lower_1",
+        "processors": "subterrestrial:cabin/deepslate/degradation_replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/deepslate/base_1",
+        "processors": "subterrestrial:cabin/deepslate/degradation_replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/deepslate/base_upper_1",
+        "processors": "subterrestrial:cabin/deepslate/degradation_replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/deepslate/base_lower_0",
+        "processors": "subterrestrial:cabin/deepslate/replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/deepslate/base_0",
+        "processors": "subterrestrial:cabin/deepslate/replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/deepslate/base_upper_0",
+        "processors": "subterrestrial:cabin/deepslate/replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/deepslate/base_lower_1",
+        "processors": "subterrestrial:cabin/deepslate/replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/deepslate/base_1",
+        "processors": "subterrestrial:cabin/deepslate/replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/deepslate/base_upper_1",
+        "processors": "subterrestrial:cabin/deepslate/replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

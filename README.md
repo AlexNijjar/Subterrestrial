@@ -1,4 +1,4 @@
-![Main](https://i.imgur.com/wrwBdhy.png)
+![Main](https://i.imgur.com/z1b8bm8.jpg)
 
 <br/><br/>
 
@@ -16,10 +16,9 @@ chest and multiple smaller chests, furniture and workstations throughout the str
 
 ## Features
 
-- Biome variations: Six different cabin types, depending on the biome: Default, Deepslate, Desert, Ice, Jungle and
-  Ocean.
-- Cabin variations: Each cabin has randomly generated rooms and randomly generated loot. Additionally, cabins can
-  occasionally be flooded or intact with better loot.
+- Biome variations: Eight different cabin types, depending on the biome: Default, Deepslate, Desert, Mesa, Taiga, Ice,
+  Jungle and Ocean.
+- Cabin variations: Cabins feature random loot, rooms, degradation, foliage and destruction. No two cabins are the same!
 
 ## Integrations
 
@@ -31,5 +30,5 @@ chest and multiple smaller chests, furniture and workstations throughout the str
 - [Modern Industrialization](https://modrinth.com/mod/modern-industrialization)
   / [Tech reborn:](https://www.curseforge.com/minecraft/mc-mods/techreborn) Some chests occasionally contain tech loot.
 
-![Jungle](https://i.imgur.com/baE5Ffa.png)
-![Jungle](https://i.imgur.com/Zy9rIhG.png)
+![Inside](https://i.imgur.com/Cx8A8iL.jpg)
+![Jungle](https://i.imgur.com/dMJ442M.jpg)
