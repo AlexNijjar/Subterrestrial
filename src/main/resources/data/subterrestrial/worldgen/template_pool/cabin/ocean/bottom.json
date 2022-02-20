@@ -1,0 +1,42 @@
+{
+  "name": "subterrestrial:cabin/ocean/bottom",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/ocean/bottom_0",
+        "processors": "subterrestrial:cabin/ocean/degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/ocean/bottom_1",
+        "processors": "subterrestrial:cabin/ocean/degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/ocean/bottom_2",
+        "processors": "subterrestrial:cabin/ocean/degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/ocean/bottom_3",
+        "processors": "subterrestrial:cabin/ocean/degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

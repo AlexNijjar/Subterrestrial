@@ -18,9 +18,11 @@ public class Subterrestrial implements ModInitializer {
     @Override
     public void onInitialize() {
 
+        // Register config.
         AutoConfig.register(SubterrestrialConfig.class, Toml4jConfigSerializer::new);
         CONFIG = AutoConfig.getConfigHolder(SubterrestrialConfig.class).getConfig();
 
+        // Register structures.
         LootTableModifier.modifyCabinLoot();
         SubterrestrialStructures.register();
 

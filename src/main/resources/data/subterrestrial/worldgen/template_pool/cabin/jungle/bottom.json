@@ -1,0 +1,78 @@
+{
+  "name": "subterrestrial:cabin/jungle/bottom",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/jungle/bottom_0",
+        "processors": "subterrestrial:cabin/jungle/degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/jungle/bottom_1",
+        "processors": "subterrestrial:cabin/jungle/degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/jungle/bottom_2",
+        "processors": "subterrestrial:cabin/jungle/degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/jungle/bottom_3",
+        "processors": "subterrestrial:cabin/jungle/degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/jungle/bottom_0",
+        "processors": "subterrestrial:cabin/jungle/configurator",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/jungle/bottom_1",
+        "processors": "subterrestrial:cabin/jungle/configurator",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/jungle/bottom_2",
+        "processors": "subterrestrial:cabin/jungle/configurator",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/jungle/bottom_3",
+        "processors": "subterrestrial:cabin/jungle/configurator",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "subterrestrial:cabin/taiga/base",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/taiga/base_lower_0",
+        "processors": "subterrestrial:cabin/taiga/degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/taiga/base_0",
+        "processors": "subterrestrial:cabin/taiga/degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/taiga/base_upper_0",
+        "processors": "subterrestrial:cabin/taiga/degradation",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/taiga/base_lower_0",
+        "processors": "subterrestrial:cabin/taiga/configurator",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/taiga/base_0",
+        "processors": "subterrestrial:cabin/taiga/configurator",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/taiga/base_upper_0",
+        "processors": "subterrestrial:cabin/taiga/configurator",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

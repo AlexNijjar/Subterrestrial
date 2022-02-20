@@ -1,6 +1,7 @@
 package com.github.alexnijjar.subterrestrial.loot;
 
 import com.github.alexnijjar.subterrestrial.Subterrestrial;
+import com.github.alexnijjar.subterrestrial.config.TechLoot;
 import com.github.alexnijjar.subterrestrial.util.SubterrestrialIdentifier;
 import com.github.alexnijjar.subterrestrial.util.SubterrestrialUtils;
 import com.google.common.collect.ImmutableMap;
@@ -20,6 +21,12 @@ import java.util.Map;
 
 public class LootTableModifier {
 
+    public static final Identifier metalworks = new SubterrestrialIdentifier("chests/cabin/metalworks");
+    public static final Identifier enhancedMetalworks = new SubterrestrialIdentifier("chests/cabin/enhanced_metalworks");
+    public static final Identifier kitchen = new SubterrestrialIdentifier("chests/cabin/kitchen");
+    public static final Identifier bedroom = new SubterrestrialIdentifier("chests/cabin/bedroom");
+    public static final Identifier blocks = new SubterrestrialIdentifier("chests/cabin/blocks");
+
     public static final Map<String, List<LootData>> loot = ImmutableMap.of(
             "metalworks_loot_mi", Arrays.asList(
                     new LootData(miId("tin_ingot"), Range.between(3, 7), Range.between(2, 5), 0.5f),
@@ -36,12 +43,12 @@ public class LootTableModifier {
                     new LootData(trId("steel_ingot"), Range.between(3, 7), Range.between(2, 5), 0.5f)
             ),
             "enhanced_metalworks_loot_mi", Arrays.asList(
-                    new LootData(miId("tungsten_ingot"), Range.between(2, 4), Range.between(1, 2), 0.25f),
+                    new LootData(miId("tungsten_ingot"), Range.between(2, 4), Range.between(1, 2), 0.3f),
                     new LootData(miId("titanium_ingot"), Range.between(1, 2), Range.between(1, 2), 0.25f),
-                    new LootData(miId("platinum_ingot"), Range.between(1, 2), Range.between(1, 1), 0.25f),
+                    new LootData(miId("platinum_ingot"), Range.between(1, 2), Range.between(1, 1), 0.2f),
                     new LootData(miId("chromium_ingot"), Range.between(1, 3), Range.between(1, 2), 0.25f),
                     new LootData(miId("uranium_ingot"), Range.between(5, 10), Range.between(1, 2), 0.25f),
-                    new LootData(miId("iridium_ingot"), Range.between(1, 2), Range.between(1, 1), 0.2f)
+                    new LootData(miId("iridium_ingot"), Range.between(1, 2), Range.between(1, 1), 0.1f)
             ),
             "enhanced_metalworks_loot_tr", Arrays.asList(
                     new LootData(trId("tungsten_ingot"), Range.between(2, 4), Range.between(1, 2), 0.25f),
@@ -49,7 +56,7 @@ public class LootTableModifier {
                     new LootData(trId("platinum_ingot"), Range.between(1, 2), Range.between(1, 2), 0.25f),
                     new LootData(trId("chromium_ingot"), Range.between(2, 3), Range.between(1, 2), 0.25f),
                     new LootData(trId("advanced_alloy_ingot"), Range.between(6, 12), Range.between(1, 2), 0.25f),
-                    new LootData(trId("iridium_ingot"), Range.between(1, 2), Range.between(1, 1), 0.2f)
+                    new LootData(trId("iridium_ingot"), Range.between(1, 2), Range.between(1, 1), 0.1f)
             ),
             "kitchen_loot_crop", Arrays.asList(
                     new LootData(crId("potato_chips"), Range.between(1, 3), Range.between(1, 2), 0.2f),
@@ -63,12 +70,6 @@ public class LootTableModifier {
                     new LootData(aaId("glow_stick"), Range.between(3, 6), Range.between(2, 6), 0.9f),
                     new LootData(aaId("rope"), Range.between(2, 4), Range.between(1, 4), 0.25f)
             ));
-
-    static final Identifier metalworks = new SubterrestrialIdentifier("chests/cabin_metalworks");
-    static final Identifier enhancedMetalworks = new SubterrestrialIdentifier("chests/cabin_enhanced_metalworks");
-    static final Identifier kitchen = new SubterrestrialIdentifier("chests/cabin_kitchen");
-    static final Identifier bedroom = new SubterrestrialIdentifier("chests/cabin_bedroom");
-    static final Identifier blocks = new SubterrestrialIdentifier("chests/cabin_blocks");
 
     static Identifier miId(String path) {
         return new Identifier("modern_industrialization", path);
@@ -100,16 +101,18 @@ public class LootTableModifier {
         LootTableLoadingCallback.EVENT.register((resourceManager, lootManager, id, table, setter) -> {
 
             if (id.getNamespace().equals(Subterrestrial.MOD_ID)) {
-                if (Subterrestrial.CONFIG.moddedLootInChests_v1) {
+                if (Subterrestrial.CONFIG.moddedLootInChests) {
+
+                    // Adds either Modern Industrialization or Tech Reborn loot, depending on what's installed.
                     if (id.equals(LootTableModifier.metalworks) || id.equals(LootTableModifier.enhancedMetalworks)) {
-                        if (SubterrestrialUtils.modLoaded("modern_industrialization")) {
+                        if (Subterrestrial.CONFIG.techLoot.equals(TechLoot.MODERN_INDUSTRIALIZATION) && SubterrestrialUtils.modLoaded("modern_industrialization")) {
 
                             LootTableModifier.loot.get("metalworks_loot_mi").forEach((data) -> table.pool(buildPool(data)));
 
                             if (id.equals(LootTableModifier.enhancedMetalworks)) {
                                 LootTableModifier.loot.get("enhanced_metalworks_loot_mi").forEach((data) -> table.pool(buildPool(data)));
                             }
-                        } else if (SubterrestrialUtils.modLoaded("techreborn")) {
+                        } else if (Subterrestrial.CONFIG.techLoot.equals(TechLoot.TECH_REBORN) && SubterrestrialUtils.modLoaded("techreborn")) {
 
                             LootTableModifier.loot.get("metalworks_loot_tr").forEach((data) -> table.pool(buildPool(data)));
 
@@ -127,9 +130,10 @@ public class LootTableModifier {
                             LootTableModifier.loot.get("cabin_bedroom_aa").forEach((data) -> table.pool(buildPool(data)));
                     }
 
+                    // Add silt to the blocks chest when The Extractinator is installed.
                     if (id.equals(LootTableModifier.blocks)) {
                         if (SubterrestrialUtils.modLoaded("the_extractinator")) {
-                            LootData data = new LootData(new Identifier("the_extractinator", "silt"), Range.between(8, 16), Range.between(2, 6), 0.75f);
+                            LootData data = new LootData(new Identifier("the_extractinator", "silt"), Range.between(8, 16), Range.between(2, 6), 0.8f);
                             table.pool(buildPool(data));
                         }
                     }

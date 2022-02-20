@@ -1,0 +1,353 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oxidized_cut_copper",
+            "probability": 0.33
+          },
+          "output_state": {
+            "Name": "minecraft:weathered_cut_copper"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oxidized_copper",
+            "probability": 0.33
+          },
+          "output_state": {
+            "Name": "minecraft:weathered_copper"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:prismarine_bricks",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dark_prismarine",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:prismarine_bricks",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:dark_prismarine",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine"
+          }
+        },
+
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:prismarine_bricks",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_slab",
+            "Properties": {
+              "type": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:prismarine_bricks",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_slab",
+            "Properties": {
+              "type": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:prismarine_bricks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:prismarine_bricks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:prismarine_bricks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:prismarine_bricks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:prismarine_bricks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:prismarine_bricks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:prismarine_bricks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:prismarine_bricks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:prismarine_brick_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom"
+            }
+          }
+        },
+
+
+
+        
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:bookshelf",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:anvil",
+              "Properties": {
+                "facing": "north"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:damaged_anvil",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:anvil",
+              "Properties": {
+                "facing": "east"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:damaged_anvil",
+            "Properties": {
+              "facing": "east"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:anvil",
+              "Properties": {
+                "facing": "south"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:damaged_anvil",
+            "Properties": {
+              "facing": "south"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:anvil",
+              "Properties": {
+                "facing": "west"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:damaged_anvil",
+            "Properties": {
+              "facing": "west"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

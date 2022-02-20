@@ -1,0 +1,78 @@
+{
+  "name": "subterrestrial:cabin/desert/top",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/desert/top_0",
+        "processors": "subterrestrial:cabin/mesa/degradation_replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/desert/top_1",
+        "processors": "subterrestrial:cabin/mesa/degradation_replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/desert/top_2",
+        "processors": "subterrestrial:cabin/mesa/degradation_replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 100,
+      "element": {
+        "location": "subterrestrial:cabin/desert/top_3",
+        "processors": "subterrestrial:cabin/mesa/degradation_replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/desert/top_0",
+        "processors": "subterrestrial:cabin/mesa/replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/desert/top_1",
+        "processors": "subterrestrial:cabin/mesa/replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/desert/top_2",
+        "processors": "subterrestrial:cabin/mesa/replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "location": "subterrestrial:cabin/desert/top_3",
+        "processors": "subterrestrial:cabin/mesa/replace",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

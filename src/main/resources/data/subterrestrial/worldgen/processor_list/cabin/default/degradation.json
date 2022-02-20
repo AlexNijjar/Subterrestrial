@@ -1,0 +1,986 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cobblestone",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cobblestone_wall",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_planks",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_slab",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_stairs",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_fence",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_log",
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:stripped_oak_log",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_planks",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:oak_slab",
+            "Properties": {
+              "type": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_planks",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:oak_slab",
+            "Properties": {
+              "type": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:oak_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:oak_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:oak_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:oak_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "top"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:oak_stairs",
+            "Properties": {
+              "facing": "north",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:oak_stairs",
+            "Properties": {
+              "facing": "east",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:oak_stairs",
+            "Properties": {
+              "facing": "south",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:oak_planks",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:oak_stairs",
+            "Properties": {
+              "facing": "west",
+              "half": "bottom"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:stone_bricks",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_stone_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:stone_bricks",
+            "probability": 0.25
+          },
+          "output_state": {
+            "Name": "minecraft:cracked_stone_bricks"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:bookshelf",
+            "probability": 0.2
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:oak_log",
+              "Properties": {
+                "axis": "x"
+              }
+            },
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:oak_fence",
+            "Properties": {
+              "east": "true",
+              "west": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:oak_log",
+              "Properties": {
+                "axis": "z"
+              }
+            },
+            "probability": 0.1
+          },
+          "output_state": {
+            "Name": "minecraft:oak_fence",
+            "Properties": {
+              "north": "true",
+              "south": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall"
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "north": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "north": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "east": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "east": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "south": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "south": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "west": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "west": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "north": "tall",
+                "east": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "north": "tall",
+              "east": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "east": "tall",
+                "south": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "east": "tall",
+              "south": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "south": "tall",
+                "west": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "south": "tall",
+              "west": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "west": "tall",
+                "north": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "west": "tall",
+              "north": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "north": "tall",
+                "south": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "north": "tall",
+              "south": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "east": "tall",
+                "west": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "east": "tall",
+              "west": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "north": "tall",
+                "east": "tall",
+                "south": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "north": "tall",
+              "east": "tall",
+              "south": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "east": "tall",
+                "south": "tall",
+                "west": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "east": "tall",
+              "south": "tall",
+              "west": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "south": "tall",
+                "west": "tall",
+                "north": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "south": "tall",
+              "west": "tall",
+              "north": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "west": "tall",
+                "north": "tall",
+                "east": "tall",
+                "up": "false"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "west": "tall",
+              "north": "tall",
+              "east": "tall",
+              "up": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "north": "tall",
+                "east": "tall",
+                "south": "tall"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "north": "tall",
+              "east": "tall",
+              "south": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "east": "tall",
+                "south": "tall",
+                "west": "tall"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "east": "tall",
+              "south": "tall",
+              "west": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "south": "tall",
+                "west": "tall",
+                "north": "tall"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "south": "tall",
+              "west": "tall",
+              "north": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_blockstate_match",
+            "block_state": {
+              "Name": "minecraft:cobblestone_wall",
+              "Properties": {
+                "west": "tall",
+                "north": "tall",
+                "east": "tall"
+              }
+            },
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:mossy_cobblestone_wall",
+            "Properties": {
+              "west": "tall",
+              "north": "tall",
+              "east": "tall"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:anvil",
+              "Properties": {
+                "facing": "north"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:damaged_anvil",
+            "Properties": {
+              "facing": "north"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:anvil",
+              "Properties": {
+                "facing": "east"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:damaged_anvil",
+            "Properties": {
+              "facing": "east"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:anvil",
+              "Properties": {
+                "facing": "south"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:damaged_anvil",
+            "Properties": {
+              "facing": "south"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:anvil",
+              "Properties": {
+                "facing": "west"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:damaged_anvil",
+            "Properties": {
+              "facing": "west"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lantern"
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:torch"
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:wall_torch"
+          },
+          "output_state": {
+            "Name": "minecraft:cobweb"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:iron_block"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:tag_match",
+            "tag": "minecraft:carpets"
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lime_wool"
+          },
+          "output_state": {
+            "Name": "minecraft:oak_planks"
+          }
+        }
+      ]
+    }
+  ]
+}

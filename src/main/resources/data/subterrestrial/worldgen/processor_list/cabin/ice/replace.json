@@ -1,0 +1,292 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_planks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_planks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_planks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_planks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:snow_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_planks",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:powder_snow"
+          }
+        },
+
+
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_slab",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_slab",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_slab",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_slab",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:snow_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_slab",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:powder_snow"
+          }
+        },
+
+
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:stripped_spruce_log",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:stripped_spruce_log",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:stripped_spruce_log",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:stripped_spruce_log",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:snow_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:stripped_spruce_log",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:powder_snow"
+          }
+        },
+
+
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_log",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.05
+          },
+          "output_state": {
+            "Name": "minecraft:ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_log",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_log",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:blue_ice"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_log",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.35
+          },
+          "output_state": {
+            "Name": "minecraft:snow_block"
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "block": "minecraft:spruce_log",
+            "predicate_type": "minecraft:random_block_match",
+            "probability": 0.025
+          },
+          "output_state": {
+            "Name": "minecraft:powder_snow"
+          }
+        }
+      ]
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:lime_wool"
+          },
+          "output_state": {
+            "Name": "minecraft:packed_ice"
+          }
+        }
+      ]
+    }
+  ]
+}
