@@ -1,0 +1,10 @@
+{
+  "type": "subterrestrial:ocean_cabin",
+  "config": {
+    "start_pool": "subterrestrial:cabin/ocean/base",
+    "size": 1
+  },
+  "biomes": "#subterrestrial:has_structure/ocean_cabin",
+  "adapt_noise": true,
+  "spawn_overrides": {}
+}

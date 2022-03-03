@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beach",
+    "minecraft:meadow",
+    "minecraft:jagged_peaks",
+    "minecraft:stony_peaks",
+    "#minecraft:is_hill",
+    "#minecraft:is_forest",
+    "minecraft:stony_shore",
+    "minecraft:mushroom_fields",
+    "minecraft:plains",
+    "minecraft:swamp",
+    "minecraft:dripstone_caves"
+  ]
+}

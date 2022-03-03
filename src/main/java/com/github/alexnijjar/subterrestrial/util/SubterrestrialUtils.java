@@ -35,18 +35,19 @@ public class SubterrestrialUtils {
         }
     }
 
-    public static void registerPool(List<Pair<Function<StructurePool.Projection, ? extends StructurePoolElement>, Integer>> items, String id) {
+    public static void registerMainChest() {
         StructurePools.register(
                 new StructurePool(
-                        new SubterrestrialIdentifier(id),
+                        new SubterrestrialIdentifier("main"),
                         new Identifier("empty"),
-                        items,
+                        getMainChest(),
                         StructurePool.Projection.RIGID
                 )
         );
     }
 
-    public static Map<String, CabinConfig> getCabinList() {
+    // Contains the cabin id and the value from the config.
+    public static Map<String, CabinConfig> getCabins() {
         SubterrestrialConfig config = Subterrestrial.CONFIG;
         return ImmutableMap.of(
                 "default_cabin", config.defaultCabin,

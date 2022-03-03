@@ -28,7 +28,7 @@ chest and multiple smaller chests, furniture and workstations throughout the str
 - [Croptopia:](https://www.curseforge.com/minecraft/mc-mods/croptopia-fabric) Some chests occasionally contain Croptopia
   food and cookware.
 - [Modern Industrialization](https://modrinth.com/mod/modern-industrialization)
-  / [Tech reborn:](https://www.curseforge.com/minecraft/mc-mods/techreborn) Some chests occasionally contain tech loot.
+  / [Tech Reborn:](https://www.curseforge.com/minecraft/mc-mods/techreborn) Some chests occasionally contain tech loot.
 
 ![Inside](https://i.imgur.com/Cx8A8iL.jpg)
 ![Jungle](https://i.imgur.com/dMJ442M.jpg)

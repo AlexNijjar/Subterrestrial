@@ -4,9 +4,7 @@
   "package": "com.github.alexnijjar.subterrestrial.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "ChunkSerializerMixin"
-  ],
-  "client": [
+    "StructureFeatureAccessor"
   ],
   "injectors": {
     "defaultRequire": 1

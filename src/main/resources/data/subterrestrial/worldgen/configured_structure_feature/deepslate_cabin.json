@@ -1,0 +1,10 @@
+{
+  "type": "subterrestrial:deepslate_cabin",
+  "config": {
+    "start_pool": "subterrestrial:cabin/deepslate/base",
+    "size": 1
+  },
+  "biomes": "#subterrestrial:has_structure/deepslate_cabin",
+  "adapt_noise": true,
+  "spawn_overrides": {}
+}
