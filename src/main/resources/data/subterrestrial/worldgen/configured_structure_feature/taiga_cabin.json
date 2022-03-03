@@ -1,0 +1,10 @@
+{
+  "type": "subterrestrial:taiga_cabin",
+  "config": {
+    "start_pool": "subterrestrial:cabin/taiga/base",
+    "size": 1
+  },
+  "biomes": "#subterrestrial:has_structure/taiga_cabin",
+  "adapt_noise": true,
+  "spawn_overrides": {}
+}

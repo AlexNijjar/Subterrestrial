@@ -8,7 +8,6 @@ import me.shedaniel.autoconfig.annotation.ConfigEntry;
 @Config(name = "Subterrestrial")
 public class SubterrestrialConfig implements ConfigData {
 
-    public boolean generateCabins = true;
     @ConfigEntry.Gui.Tooltip(count = 3)
     @ConfigEntry.Gui.RequiresRestart
     public boolean moddedLootInChests = true;
@@ -22,21 +21,21 @@ public class SubterrestrialConfig implements ConfigData {
 
     // TODO: If possible, unify the CabinConfig lang so that it's not copy-paste for each cabin.
     @ConfigEntry.Gui.CollapsibleObject
-    public CabinConfig defaultCabin = new CabinConfig(true, 6, 4, 3, 42);
+    public CabinConfig defaultCabin = new CabinConfig(6, 42);
     @ConfigEntry.Gui.CollapsibleObject
-    public CabinConfig deepslateCabin = new CabinConfig(true, 6, 4, -56, -3);
+    public CabinConfig deepslateCabin = new CabinConfig(-56, -6);
     @ConfigEntry.Gui.CollapsibleObject
-    public CabinConfig desertCabin = new CabinConfig(true, 5, 4, 3, 44);
+    public CabinConfig desertCabin = new CabinConfig(6, 44);
     @ConfigEntry.Gui.CollapsibleObject
-    public CabinConfig mesaCabin = new CabinConfig(true, 4, 3, 3, 48);
+    public CabinConfig mesaCabin = new CabinConfig(6, 48);
     @ConfigEntry.Gui.CollapsibleObject
-    public CabinConfig taigaCabin = new CabinConfig(true, 5, 4, 3, 48);
+    public CabinConfig taigaCabin = new CabinConfig(6, 48);
     @ConfigEntry.Gui.CollapsibleObject
-    public CabinConfig iceCabin = new CabinConfig(true, 4, 3, 3, 42);
+    public CabinConfig iceCabin = new CabinConfig(6, 42);
     @ConfigEntry.Gui.CollapsibleObject
-    public CabinConfig jungleCabin = new CabinConfig(true, 4, 3, 3, 44);
+    public CabinConfig jungleCabin = new CabinConfig(6, 44);
     @ConfigEntry.Gui.CollapsibleObject
-    public CabinConfig oceanCabin = new CabinConfig(true, 8, 6, 24, 44);
+    public CabinConfig oceanCabin = new CabinConfig(24, 44);
 
     SubterrestrialConfig() {
         if (SubterrestrialUtils.modLoaded("modern_industrialization")) techLoot = TechLoot.MODERN_INDUSTRIALIZATION;

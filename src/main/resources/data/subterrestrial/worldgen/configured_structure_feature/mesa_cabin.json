@@ -1,0 +1,10 @@
+{
+  "type": "subterrestrial:mesa_cabin",
+  "config": {
+    "start_pool": "subterrestrial:cabin/mesa/base",
+    "size": 1
+  },
+  "biomes": "#subterrestrial:has_structure/mesa_cabin",
+  "adapt_noise": true,
+  "spawn_overrides": {}
+}

@@ -12,36 +12,113 @@
         {
           "type": "minecraft:item",
           "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.6
+              },
+              "add": false
+            }
+          ],
           "name": "minecraft:chainmail_helmet"
         },
         {
           "type": "minecraft:item",
           "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.6
+              },
+              "add": false
+            }
+          ],
           "name": "minecraft:chainmail_chestplate"
         },
         {
           "type": "minecraft:item",
           "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.6
+              },
+              "add": false
+            }
+          ],
           "name": "minecraft:chainmail_leggings"
         },
         {
           "type": "minecraft:item",
           "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.6
+              },
+              "add": false
+            }
+          ],
           "name": "minecraft:chainmail_boots"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.6
+              },
+              "add": false
+            }
+          ],
           "name": "minecraft:iron_pickaxe"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.6
+              },
+              "add": false
+            }
+          ],
           "name": "minecraft:iron_axe"
         },
         {
           "type": "minecraft:item",
           "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": {
+                "type": "minecraft:uniform",
+                "min": 0.2,
+                "max": 0.6
+              },
+              "add": false
+            }
+          ],
           "name": "minecraft:iron_shovel"
         }
       ]
