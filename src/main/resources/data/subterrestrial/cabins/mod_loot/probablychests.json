@@ -1,0 +1,22 @@
+{
+  "chests": [
+    {
+      "chest": "chests/cabin/metalworks",
+      "loot": [
+        {
+          "name": "probablychests:mimic_key_fragment",
+          "chance": 0.015
+        }
+      ]
+    },
+    {
+      "chest": "chests/cabin/enhanced_metalworks",
+      "loot": [
+        {
+          "name": "probablychests:mimic_key_fragment",
+          "chance": 0.03
+        }
+      ]
+    }
+  ]
+}

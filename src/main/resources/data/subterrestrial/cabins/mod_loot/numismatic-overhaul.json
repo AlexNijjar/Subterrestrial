@@ -1,0 +1,88 @@
+{
+  "chests": [
+    {
+      "chest": "chests/cabin/main",
+      "loot": [
+        {
+          "name": "numismatic-overhaul:bronze_coin",
+          "min_count": 1,
+          "max_count": 80,
+          "chance": 0.75
+        },
+        {
+          "name": "numismatic-overhaul:silver_coin",
+          "min_count": 1,
+          "max_count": 5,
+          "chance": 0.25
+        },
+        {
+          "name": "numismatic-overhaul:gold_coin",
+          "min_count": 1,
+          "max_count": 2,
+          "chance": 0.01
+        }
+      ]
+    },
+    {
+      "chest": "chests/cabin/metalworks",
+      "loot": [
+        {
+          "name": "numismatic-overhaul:bronze_coin",
+          "min_count": 1,
+          "max_count": 40,
+          "chance": 0.5
+        },
+        {
+          "name": "numismatic-overhaul:silver_coin",
+          "min_count": 1,
+          "max_count": 2,
+          "chance": 0.1
+        },
+        {
+          "name": "numismatic-overhaul:gold_coin",
+          "chance": 0.005
+        }
+      ]
+    },
+    {
+      "chest": "chests/cabin/enhanced_metalworks",
+      "loot": [
+        {
+          "name": "numismatic-overhaul:bronze_coin",
+          "min_count": 1,
+          "max_count": 80,
+          "chance": 0.5
+        },
+        {
+          "name": "numismatic-overhaul:silver_coin",
+          "min_count": 1,
+          "max_count": 5,
+          "chance": 0.1
+        },
+        {
+          "name": "numismatic-overhaul:gold_coin",
+          "min_count": 1,
+          "max_count": 2,
+          "chance": 0.005
+        }
+      ]
+    },
+    {
+      "chest": "chests/cabin/bedroom",
+      "loot": [
+        {
+          "name": "numismatic-overhaul:bronze_coin",
+          "min_count": 1,
+          "max_count": 30,
+          "chance": 0.5
+        },
+        {
+          "name": "numismatic-overhaul:silver_coin",
+          "min_count": 1,
+          "max_count": 6,
+          "chance": 0.2
+        }
+      ]
+    }
+  ]
+}

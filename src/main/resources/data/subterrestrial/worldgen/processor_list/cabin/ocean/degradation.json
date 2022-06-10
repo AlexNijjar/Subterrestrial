@@ -81,7 +81,6 @@
             "Name": "minecraft:prismarine"
           }
         },
-
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -250,10 +249,6 @@
             }
           }
         },
-
-
-
-        
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"

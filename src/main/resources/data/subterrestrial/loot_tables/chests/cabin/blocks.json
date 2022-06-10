@@ -44,46 +44,46 @@
       ]
     },
     {
-    "rolls": {
-      "type": "minecraft:uniform",
-      "min": 2.0,
-      "max": 5.0
-    },
-    "bonus_rolls": 0.0,
-    "entries": [
-      {
-        "type": "minecraft:item",
-        "weight": 10,
-        "functions": [
-          {
-            "function": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "min": 4.0,
-              "max": 16.0
-            },
-            "add": false
-          }
-        ],
-        "name": "minecraft:gravel"
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2.0,
+        "max": 5.0
       },
-      {
-        "type": "minecraft:item",
-        "weight": 10,
-        "functions": [
-          {
-            "function": "minecraft:set_count",
-            "count": {
-              "type": "minecraft:uniform",
-              "min": 4.0,
-              "max": 16.0
-            },
-            "add": false
-          }
-        ],
-        "name": "minecraft:sand"
-      }
-    ]
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 16.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:gravel"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4.0,
+                "max": 16.0
+              },
+              "add": false
+            }
+          ],
+          "name": "minecraft:sand"
+        }
+      ]
     }
   ]
 }

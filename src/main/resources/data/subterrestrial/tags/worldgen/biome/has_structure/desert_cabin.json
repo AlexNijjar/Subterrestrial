@@ -1,7 +1,8 @@
 {
   "replace": false,
   "values": [
-    "minecraft:desert",
+    "#minecraft:has_structure/desert_pyramid",
+    "#minecraft:has_structure/village_savanna",
     "minecraft:windswept_savanna",
     "minecraft:savanna",
     "minecraft:savanna_plateau"

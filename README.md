@@ -8,6 +8,12 @@
     </p>
 </a>
 
+<a href="https://modrinth.com/mod/cloth-config">
+    <p align="center">
+        <img src="https://raw.githubusercontent.com/Jab125/Jab125/main/imgs/requiredClothConfig.png" alt="Fabric API" width="250"/> 
+    </p>
+</a>
+
 # Subterrestrial
 
 Subterrestrial adds new structures, Underground Cabins. These are modular two-to-three-story subsurface houses that are
@@ -22,13 +28,13 @@ chest and multiple smaller chests, furniture and workstations throughout the str
 
 ## Integrations
 
-- [The Extractinator:](https://modrinth.com/mod/the-extractinator) The main chest is replaced with an extractinator,
-  allowing for a convenient way to obtain one.
 - [Additional Additions:](https://modrinth.com/mod/addadd) Some chests occasionally contain Additional Additions loot.
-- [Croptopia:](https://www.curseforge.com/minecraft/mc-mods/croptopia-fabric) Some chests occasionally contain Croptopia
-  food and cookware.
+- [Artifacts:](https://www.curseforge.com/minecraft/mc-mods/artifacts) Some chests occasionally contain artifacts.
+- [Croptopia:](https://www.curseforge.com/minecraft/mc-mods/croptopia-fabric) Some chests occasionally contain Croptopia food and cookware.
 - [Modern Industrialization](https://modrinth.com/mod/modern-industrialization)
   / [Tech Reborn:](https://www.curseforge.com/minecraft/mc-mods/techreborn) Some chests occasionally contain tech loot.
+- [Numismatic Overhaul:](https://modrinth.com/mod/numismatic-overhaul) Chests occasionally contain coins.
+- [The Extractinator:](https://modrinth.com/mod/the-extractinator) The main chest is replaced with an extractinator, allowing for a convenient way to obtain one.
 
 ![Inside](https://i.imgur.com/Cx8A8iL.jpg)
 ![Jungle](https://i.imgur.com/dMJ442M.jpg)

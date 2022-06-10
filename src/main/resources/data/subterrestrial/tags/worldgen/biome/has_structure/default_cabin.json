@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "minecraft:beach",
+    "#minecraft:has_structure/village_plains",
     "minecraft:meadow",
     "minecraft:jagged_peaks",
     "minecraft:stony_peaks",

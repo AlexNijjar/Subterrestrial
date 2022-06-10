@@ -1,0 +1,17 @@
+{
+  "chests": [
+    {
+      "chest": "chests/cabin/blocks",
+      "loot": [
+        {
+          "name": "the_extractinator:silt",
+          "min_rolls": 8,
+          "max_rolls": 16,
+          "min_count": 2,
+          "max_count": 6,
+          "chance": 0.75
+        }
+      ]
+    }
+  ]
+}

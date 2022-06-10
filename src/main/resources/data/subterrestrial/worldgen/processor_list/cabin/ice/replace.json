@@ -68,8 +68,6 @@
             "Name": "minecraft:powder_snow"
           }
         },
-
-
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -135,8 +133,6 @@
             "Name": "minecraft:powder_snow"
           }
         },
-
-
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
@@ -202,8 +198,6 @@
             "Name": "minecraft:powder_snow"
           }
         },
-
-
         {
           "location_predicate": {
             "predicate_type": "minecraft:always_true"
