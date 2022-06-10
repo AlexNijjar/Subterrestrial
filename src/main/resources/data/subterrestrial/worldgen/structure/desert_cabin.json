@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#subterrestrial:has_structure/desert_cabin",
+  "step": "underground_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "beard_thin",
+  "start_pool": "subterrestrial:cabin/desert/base",
+  "size": 7,
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 6
+    },
+    "max_inclusive": {
+      "absolute": 44
+    }
+  },
+  "max_distance_from_center": 80,
+  "use_expansion_hack": false
+}

@@ -1,0 +1,79 @@
+{
+  "chests": [
+    {
+      "chest": "chests/cabin/bedroom",
+      "loot": [
+        {
+          "name": "additionaladditions:glow_stick",
+          "min_rolls": 3,
+          "max_rolls": 6,
+          "min_count": 2,
+          "max_count": 6,
+          "chance": 0.9
+        },
+        {
+          "name": "additionaladditions:rope",
+          "min_rolls": 2,
+          "max_rolls": 4,
+          "min_count": 1,
+          "max_count": 4,
+          "chance": 0.5
+        },
+        {
+          "name": "additionaladditions:mysterious_bundle",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "chest": "chests/cabin/metalworks",
+      "loot": [
+        {
+          "name": "additionaladditions:crossbow_with_spyglass",
+          "chance": 0.05
+        }
+      ]
+    },
+    {
+      "chest": "chests/cabin/enhanced_metalworks",
+      "loot": [
+        {
+          "name": "additionaladditions:crossbow_with_spyglass",
+          "chance": 0.15
+        }
+      ]
+    },
+    {
+      "chest": "chests/cabin/kitchen",
+      "loot": [
+        {
+          "name": "additionaladditions:chicken_nugget",
+          "min_count": 1,
+          "max_count": 3,
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "chest": "chests/cabin/music",
+      "loot": [
+        {
+          "name": "additionaladditions:pocket_jukebox",
+          "chance": 0.1
+        },
+        {
+          "name": "additionaladditions:music_disk_0308",
+          "chance": 0.1
+        },
+        {
+          "name": "additionaladditions:music_disk_1007",
+          "chance": 0.1
+        },
+        {
+          "name": "additionaladditions:music_disk_1507",
+          "chance": 0.1
+        }
+      ]
+    }
+  ]
+}

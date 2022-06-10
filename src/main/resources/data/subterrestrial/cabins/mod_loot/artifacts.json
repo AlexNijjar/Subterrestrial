@@ -1,0 +1,294 @@
+{
+  "chests": [
+    {
+      "chest": "chests/cabin/main",
+      "loot": [
+        {
+          "name": "artifacts:umbrella",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:plastic_drinking_hat",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:novelty_drinking_hat",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:snorkel",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:night_vision_goggles",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:villager_hat",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:superstitious_hat",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:lucky_scarf",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:scarf_of_invisibility",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:cross_necklace",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:panic_necklace",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:shock_pendant",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:flame_pendant",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:thorn_pendant",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:charm_of_sinking",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:cloud_in_a_bottle",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:obsidian_skull",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:antidote_vessel",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:universal_attractor",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:crystal_heart",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:helium_flamingo",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:digging_claws",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:feral_claws",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:power_glove",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:fire_gauntlet",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:pocket_piston",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:vampiric_glove",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:golden_hook",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:aqua_dashers",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:bunny_hoppers",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:kitty_slippers",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:running_shoes",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:steadfast_spikes",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:flippers",
+          "chance": 0.007
+        },
+        {
+          "name": "artifacts:whoopiee_cushion",
+          "chance": 0.007
+        }
+      ]
+    },
+    {
+      "chest": "chests/cabin/bedroom",
+      "loot": [
+        {
+          "name": "artifacts:umbrella",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:plastic_drinking_hat",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:novelty_drinking_hat",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:snorkel",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:night_vision_goggles",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:villager_hat",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:superstitious_hat",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:lucky_scarf",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:scarf_of_invisibility",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:cross_necklace",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:panic_necklace",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:shock_pendant",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:flame_pendant",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:thorn_pendant",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:charm_of_sinking",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:cloud_in_a_bottle",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:obsidian_skull",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:antidote_vessel",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:universal_attractor",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:crystal_heart",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:helium_flamingo",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:digging_claws",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:feral_claws",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:power_glove",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:fire_gauntlet",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:pocket_piston",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:vampiric_glove",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:golden_hook",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:aqua_dashers",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:bunny_hoppers",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:kitty_slippers",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:running_shoes",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:steadfast_spikes",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:flippers",
+          "chance": 0.002
+        },
+        {
+          "name": "artifacts:whoopiee_cushion",
+          "chance": 0.002
+        }
+      ]
+    }
+  ]
+}
