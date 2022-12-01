@@ -1,0 +1,30 @@
+
+modLoader = "javafml"
+loaderVersion = "[40,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/AlexNijjar/Subterrestrial/issues/"
+[[mods]]
+modId = "subterrestrial"
+version = "${version}"
+displayName = "Subterrestrial"
+displayURL = "https://www.curseforge.com/minecraft/mc-mods/subterrestrial"
+logoFile = "icon.png"
+authors = "Alex Nijjar"
+
+description = '''
+Adds Underground Cabins from Terraria. 
+'''
+
+[[dependencies.subterrestrial]]
+modId = "forge"
+mandatory = true
+versionRange = "[40,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.subterrestrial]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,)"
+ordering = "NONE"
+side = "BOTH"

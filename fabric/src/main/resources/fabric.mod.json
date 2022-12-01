@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "subterrestrial",
+  "version": "${version}",
+  "name": "Subterrestrial",
+  "description": "Adds Underground Cabins from Terraria. ",
+  "authors": [
+    "Alex Nijjar"
+  ],
+  "contact": {
+    "website": "https://www.curseforge.com/minecraft/mc-mods/subterrestrial",
+    "repo": "https://github.com/AlexNijjar/Subterrestrial/",
+    "issues": "https://github.com/AlexNijjar/Subterrestrial/issues/"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.alexnijjar.subterrestrial.fabric.SubterrestrialFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "minecraft": ">=1.19.2"
+  }
+}
