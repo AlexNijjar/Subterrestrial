@@ -1,5 +1,3 @@
-import groovy.json.JsonOutput
-
 plugins {
     id "architectury-plugin" version "3.4-SNAPSHOT"
     id "dev.architectury.loom" version "1.1-SNAPSHOT" apply false
@@ -68,7 +66,7 @@ subprojects {
 
     if (env.MODRINTH_TOKEN) {
         modrinth {
-            projectId = env.MODRINTH_PROJECT
+            projectId = modrinth_id
             uploadFile = tasks.remapJar
             gameVersions = [minecraft_version]
             loaders = [modLoader]
@@ -86,7 +84,7 @@ subprojects {
         curseforge {
             apiKey = env.CURSE_TOKEN
             project {
-                id = env.CURSE_PROJECT
+                id = curse_id
                 changelog = changelogText
                 releaseType = 'release'
                 addGameVersion minecraft_version
