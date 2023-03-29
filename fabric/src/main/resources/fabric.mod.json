@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "dev.alexnijjar.subterrestrial.fabric.SubterrestrialFabric"
+    ],
+    "fabric-datagen": [
+      "dev.alexnijjar.subterrestrial.datagen.SubterrestrialFabricDataGenerator"
     ]
   },
   "depends": {

@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#minecraft:has_structure/jungle_temple",
-    "#minecraft:is_jungle",
-    "minecraft:lush_caves"
-  ]
-}
