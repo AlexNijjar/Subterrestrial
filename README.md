@@ -1,4 +1,4 @@
-<center>
+<div align="center">
 
 ## Subterrestrial
 
@@ -8,7 +8,7 @@
 ### 📖About 📖
 
 <hr>
-</center>
+</div>
 
 Subterrestrial adds new structures, Underground Cabins. These are stacked two-to-three-story subsurface houses that are
 based on Terraria's <a href="https://terraria.fandom.com/wiki/Underground_Cabin">Underground Cabins.</a> They contain
