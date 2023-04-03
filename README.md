@@ -2,6 +2,7 @@
 
 ## Subterrestrial
 
+[![Modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/mod/subterrestrial)
 [![CurseForge](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/mc-mods/subterrestrial)
 <hr>
 
@@ -11,7 +12,7 @@
 </div>
 
 Subterrestrial adds new structures, Underground Cabins. These are stacked two-to-three-story subsurface houses that are
-based on Terraria's <a href="https://terraria.fandom.com/wiki/Underground_Cabin">Underground Cabins.</a> They contain
+based on Terraria's [Underground Cabins](https://terraria.fandom.com/wiki/Underground_Cabin) They contain
 one main chest and multiple smaller chests, furniture and
 workstations throughout the structure.
 
