@@ -1,2 +1,1 @@
-- Datagen everything now
-- Use forge biome tags and fabric conventional biome tags for cabin spawning, so hopefully they spawn in modded biomes more.
+- 1.20

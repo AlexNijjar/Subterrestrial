@@ -40,7 +40,7 @@ Common
 
 ```groovy
 dependencies {
-    modImplementation "dev.alexnijjar:subterrestrial-common-$rootProject.minecraft_version:$rootProject.subterrestrial_version"
+    modImplementation "dev.alexnijjar.subterrestrial:subterrestrial-common-$rootProject.minecraft_version:$rootProject.subterrestrial_version"
 }
 ```
 
@@ -48,7 +48,7 @@ Fabric
 
 ```groovy
 dependencies {
-    modImplementation "dev.alexnijjar:subterrestrial-fabric-$rootProject.minecraft_version:$rootProject.subterrestrial_version"
+    modImplementation "dev.alexnijjar.subterrestrial:subterrestrial-fabric-$rootProject.minecraft_version:$rootProject.subterrestrial_version"
 }
 ```
 
@@ -56,7 +56,7 @@ Forge
 
 ```groovy
 dependencies {
-    modImplementation "dev.alexnijjar:subterrestrial-forge-$rootProject.minecraft_version:$rootProject.subterrestrial_version"
+    modImplementation "dev.alexnijjar.subterrestrial:subterrestrial-forge-$rootProject.minecraft_version:$rootProject.subterrestrial_version"
 }
 ```
 
