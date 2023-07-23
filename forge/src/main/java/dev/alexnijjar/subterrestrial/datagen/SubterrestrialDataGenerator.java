@@ -1,9 +1,9 @@
 package dev.alexnijjar.subterrestrial.datagen;
 
 import dev.alexnijjar.subterrestrial.Subterrestrial;
+import dev.alexnijjar.subterrestrial.common.data.ModLootTableProvider;
 import dev.alexnijjar.subterrestrial.datagen.provider.base.ModWorldgenProvider;
 import dev.alexnijjar.subterrestrial.datagen.provider.server.ModBiomeTagProvider;
-import dev.alexnijjar.subterrestrial.common.data.ModLootTableProvider;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;

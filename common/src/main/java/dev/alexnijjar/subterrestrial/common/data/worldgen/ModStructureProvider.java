@@ -51,115 +51,115 @@ public class ModStructureProvider {
         HolderGetter<Biome> holderGetter = context.lookup(Registries.BIOME);
         HolderGetter<StructureTemplatePool> holderGetter2 = context.lookup(Registries.TEMPLATE_POOL);
         context.register(
-                DEEPSLATE_CABIN,
-                new JigsawStructure(structure(
-                        holderGetter.getOrThrow(ModTags.HAS_DEEPSLATE_CABIN),
-                        GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-                        TerrainAdjustment.BEARD_THIN),
-                        holderGetter2.getOrThrow(DeepslateCabinPools.BASE),
-                        Optional.empty(),
-                        7,
-                        UniformHeight.of(VerticalAnchor.absolute(-56 + OFFSET), VerticalAnchor.absolute(-6 + OFFSET)),
-                        false,
-                        Optional.empty(),
-                        80));
+            DEEPSLATE_CABIN,
+            new JigsawStructure(structure(
+                holderGetter.getOrThrow(ModTags.HAS_DEEPSLATE_CABIN),
+                GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+                TerrainAdjustment.BEARD_THIN),
+                holderGetter2.getOrThrow(DeepslateCabinPools.BASE),
+                Optional.empty(),
+                7,
+                UniformHeight.of(VerticalAnchor.absolute(-56 + OFFSET), VerticalAnchor.absolute(-6 + OFFSET)),
+                false,
+                Optional.empty(),
+                80));
 
         context.register(
-                DEFAULT_CABIN,
-                new JigsawStructure(structure(
-                        holderGetter.getOrThrow(ModTags.HAS_DEFAULT_CABIN),
-                        GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-                        TerrainAdjustment.BEARD_THIN),
-                        holderGetter2.getOrThrow(DefaultCabinPools.BASE),
-                        Optional.empty(),
-                        7,
-                        UniformHeight.of(VerticalAnchor.absolute(6 + OFFSET), VerticalAnchor.absolute(42 + OFFSET)),
-                        false,
-                        Optional.empty(),
-                        80));
+            DEFAULT_CABIN,
+            new JigsawStructure(structure(
+                holderGetter.getOrThrow(ModTags.HAS_DEFAULT_CABIN),
+                GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+                TerrainAdjustment.BEARD_THIN),
+                holderGetter2.getOrThrow(DefaultCabinPools.BASE),
+                Optional.empty(),
+                7,
+                UniformHeight.of(VerticalAnchor.absolute(6 + OFFSET), VerticalAnchor.absolute(42 + OFFSET)),
+                false,
+                Optional.empty(),
+                80));
 
         context.register(
-                DESERT_CABIN,
-                new JigsawStructure(structure(
-                        holderGetter.getOrThrow(ModTags.HAS_DESERT_CABIN),
-                        GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-                        TerrainAdjustment.BEARD_THIN),
-                        holderGetter2.getOrThrow(DesertCabinPools.BASE),
-                        Optional.empty(),
-                        7,
-                        UniformHeight.of(VerticalAnchor.absolute(6 + OFFSET), VerticalAnchor.absolute(44 + OFFSET)),
-                        false,
-                        Optional.empty(),
-                        80));
+            DESERT_CABIN,
+            new JigsawStructure(structure(
+                holderGetter.getOrThrow(ModTags.HAS_DESERT_CABIN),
+                GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+                TerrainAdjustment.BEARD_THIN),
+                holderGetter2.getOrThrow(DesertCabinPools.BASE),
+                Optional.empty(),
+                7,
+                UniformHeight.of(VerticalAnchor.absolute(6 + OFFSET), VerticalAnchor.absolute(44 + OFFSET)),
+                false,
+                Optional.empty(),
+                80));
 
         context.register(
-                ICE_CABIN,
-                new JigsawStructure(structure(
-                        holderGetter.getOrThrow(ModTags.HAS_ICE_CABIN),
-                        GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-                        TerrainAdjustment.BEARD_THIN),
-                        holderGetter2.getOrThrow(IceCabinPools.BASE),
-                        Optional.empty(),
-                        7,
-                        UniformHeight.of(VerticalAnchor.absolute(6 + OFFSET), VerticalAnchor.absolute(42 + OFFSET)),
-                        false,
-                        Optional.empty(),
-                        80));
+            ICE_CABIN,
+            new JigsawStructure(structure(
+                holderGetter.getOrThrow(ModTags.HAS_ICE_CABIN),
+                GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+                TerrainAdjustment.BEARD_THIN),
+                holderGetter2.getOrThrow(IceCabinPools.BASE),
+                Optional.empty(),
+                7,
+                UniformHeight.of(VerticalAnchor.absolute(6 + OFFSET), VerticalAnchor.absolute(42 + OFFSET)),
+                false,
+                Optional.empty(),
+                80));
 
         context.register(
-                JUNGLE_CABIN,
-                new JigsawStructure(structure(
-                        holderGetter.getOrThrow(ModTags.HAS_JUNGLE_CABIN),
-                        GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-                        TerrainAdjustment.BEARD_THIN),
-                        holderGetter2.getOrThrow(JungleCabinPools.BASE),
-                        Optional.empty(),
-                        7,
-                        UniformHeight.of(VerticalAnchor.absolute(6 + OFFSET), VerticalAnchor.absolute(44 + OFFSET)),
-                        false,
-                        Optional.empty(),
-                        80));
+            JUNGLE_CABIN,
+            new JigsawStructure(structure(
+                holderGetter.getOrThrow(ModTags.HAS_JUNGLE_CABIN),
+                GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+                TerrainAdjustment.BEARD_THIN),
+                holderGetter2.getOrThrow(JungleCabinPools.BASE),
+                Optional.empty(),
+                7,
+                UniformHeight.of(VerticalAnchor.absolute(6 + OFFSET), VerticalAnchor.absolute(44 + OFFSET)),
+                false,
+                Optional.empty(),
+                80));
 
         context.register(
-                MESA_CABIN,
-                new JigsawStructure(structure(
-                        holderGetter.getOrThrow(ModTags.HAS_MESA_CABIN),
-                        GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-                        TerrainAdjustment.BEARD_THIN),
-                        holderGetter2.getOrThrow(MesaCabinPools.BASE),
-                        Optional.empty(),
-                        7,
-                        UniformHeight.of(VerticalAnchor.absolute(6 + OFFSET), VerticalAnchor.absolute(48 + OFFSET)),
-                        false,
-                        Optional.empty(),
-                        80));
+            MESA_CABIN,
+            new JigsawStructure(structure(
+                holderGetter.getOrThrow(ModTags.HAS_MESA_CABIN),
+                GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+                TerrainAdjustment.BEARD_THIN),
+                holderGetter2.getOrThrow(MesaCabinPools.BASE),
+                Optional.empty(),
+                7,
+                UniformHeight.of(VerticalAnchor.absolute(6 + OFFSET), VerticalAnchor.absolute(48 + OFFSET)),
+                false,
+                Optional.empty(),
+                80));
 
         context.register(
-                OCEAN_CABIN,
-                new JigsawStructure(structure(
-                        holderGetter.getOrThrow(ModTags.HAS_OCEAN_CABIN),
-                        GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-                        TerrainAdjustment.BEARD_THIN),
-                        holderGetter2.getOrThrow(OceanCabinPools.BASE),
-                        Optional.empty(),
-                        7,
-                        UniformHeight.of(VerticalAnchor.absolute(24 + OFFSET), VerticalAnchor.absolute(44 + OFFSET)),
-                        false,
-                        Optional.empty(),
-                        80));
+            OCEAN_CABIN,
+            new JigsawStructure(structure(
+                holderGetter.getOrThrow(ModTags.HAS_OCEAN_CABIN),
+                GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+                TerrainAdjustment.BEARD_THIN),
+                holderGetter2.getOrThrow(OceanCabinPools.BASE),
+                Optional.empty(),
+                7,
+                UniformHeight.of(VerticalAnchor.absolute(24 + OFFSET), VerticalAnchor.absolute(44 + OFFSET)),
+                false,
+                Optional.empty(),
+                80));
 
         context.register(
-                TAIGA_CABIN,
-                new JigsawStructure(structure(
-                        holderGetter.getOrThrow(ModTags.HAS_TAIGA_CABIN),
-                        GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
-                        TerrainAdjustment.BEARD_THIN),
-                        holderGetter2.getOrThrow(TaigaCabinPools.BASE),
-                        Optional.empty(),
-                        7,
-                        UniformHeight.of(VerticalAnchor.absolute(6 + OFFSET), VerticalAnchor.absolute(48 + OFFSET)),
-                        false,
-                        Optional.empty(),
-                        80));
+            TAIGA_CABIN,
+            new JigsawStructure(structure(
+                holderGetter.getOrThrow(ModTags.HAS_TAIGA_CABIN),
+                GenerationStep.Decoration.UNDERGROUND_STRUCTURES,
+                TerrainAdjustment.BEARD_THIN),
+                holderGetter2.getOrThrow(TaigaCabinPools.BASE),
+                Optional.empty(),
+                7,
+                UniformHeight.of(VerticalAnchor.absolute(6 + OFFSET), VerticalAnchor.absolute(48 + OFFSET)),
+                false,
+                Optional.empty(),
+                80));
     }
 }

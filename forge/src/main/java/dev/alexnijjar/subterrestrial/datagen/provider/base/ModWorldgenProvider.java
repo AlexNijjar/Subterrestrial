@@ -16,10 +16,10 @@ import java.util.concurrent.CompletableFuture;
 
 public class ModWorldgenProvider extends DatapackBuiltinEntriesProvider {
     private static final RegistrySetBuilder BUILDER = new RegistrySetBuilder()
-            .add(Registries.PROCESSOR_LIST, ModProcessorListProvider::bootstrap)
-            .add(Registries.STRUCTURE, ModStructureProvider::bootstrap)
-            .add(Registries.STRUCTURE_SET, ModStructureSetProvider::bootstrap)
-            .add(Registries.TEMPLATE_POOL, ModTemplatePoolProvider::bootstrap);
+        .add(Registries.PROCESSOR_LIST, ModProcessorListProvider::bootstrap)
+        .add(Registries.STRUCTURE, ModStructureProvider::bootstrap)
+        .add(Registries.STRUCTURE_SET, ModStructureSetProvider::bootstrap)
+        .add(Registries.TEMPLATE_POOL, ModTemplatePoolProvider::bootstrap);
 
     public ModWorldgenProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
         super(output, registries, BUILDER, Set.of(Subterrestrial.MOD_ID));

@@ -29,75 +29,75 @@ public class ModStructureSetProvider {
         HolderGetter<Structure> holderGetter = context.lookup(Registries.STRUCTURE);
 
         context.register(DEEPSLATE_CABIN,
-                new StructureSet(
-                        holderGetter.getOrThrow(ModStructureProvider.DEEPSLATE_CABIN),
-                        new RandomSpreadStructurePlacement(
-                                8,
-                                6,
-                                RandomSpreadType.LINEAR,
-                                930216435)));
+            new StructureSet(
+                holderGetter.getOrThrow(ModStructureProvider.DEEPSLATE_CABIN),
+                new RandomSpreadStructurePlacement(
+                    8,
+                    6,
+                    RandomSpreadType.LINEAR,
+                    930216435)));
 
         context.register(DEFAULT_CABIN,
-                new StructureSet(
-                        holderGetter.getOrThrow(ModStructureProvider.DEFAULT_CABIN),
-                        new RandomSpreadStructurePlacement(
-                                8,
-                                7,
-                                RandomSpreadType.LINEAR,
-                                620305146)));
+            new StructureSet(
+                holderGetter.getOrThrow(ModStructureProvider.DEFAULT_CABIN),
+                new RandomSpreadStructurePlacement(
+                    8,
+                    7,
+                    RandomSpreadType.LINEAR,
+                    620305146)));
 
         context.register(DESERT_CABIN,
-                new StructureSet(
-                        holderGetter.getOrThrow(ModStructureProvider.DESERT_CABIN),
-                        new RandomSpreadStructurePlacement(
-                                7,
-                                6,
-                                RandomSpreadType.LINEAR,
-                                850269402)));
+            new StructureSet(
+                holderGetter.getOrThrow(ModStructureProvider.DESERT_CABIN),
+                new RandomSpreadStructurePlacement(
+                    7,
+                    6,
+                    RandomSpreadType.LINEAR,
+                    850269402)));
 //
         context.register(ICE_CABIN,
-                new StructureSet(
-                        holderGetter.getOrThrow(ModStructureProvider.ICE_CABIN),
-                        new RandomSpreadStructurePlacement(
-                                6,
-                                5,
-                                RandomSpreadType.LINEAR,
-                                398191767)));
+            new StructureSet(
+                holderGetter.getOrThrow(ModStructureProvider.ICE_CABIN),
+                new RandomSpreadStructurePlacement(
+                    6,
+                    5,
+                    RandomSpreadType.LINEAR,
+                    398191767)));
 
         context.register(JUNGLE_CABIN,
-                new StructureSet(
-                        holderGetter.getOrThrow(ModStructureProvider.JUNGLE_CABIN),
-                        new RandomSpreadStructurePlacement(
-                                7,
-                                6,
-                                RandomSpreadType.LINEAR,
-                                991795390)));
+            new StructureSet(
+                holderGetter.getOrThrow(ModStructureProvider.JUNGLE_CABIN),
+                new RandomSpreadStructurePlacement(
+                    7,
+                    6,
+                    RandomSpreadType.LINEAR,
+                    991795390)));
 
         context.register(MESA_CABIN,
-                new StructureSet(
-                        holderGetter.getOrThrow(ModStructureProvider.MESA_CABIN),
-                        new RandomSpreadStructurePlacement(
-                                6,
-                                5,
-                                RandomSpreadType.LINEAR,
-                                367681074)));
+            new StructureSet(
+                holderGetter.getOrThrow(ModStructureProvider.MESA_CABIN),
+                new RandomSpreadStructurePlacement(
+                    6,
+                    5,
+                    RandomSpreadType.LINEAR,
+                    367681074)));
 
         context.register(OCEAN_CABIN,
-                new StructureSet(
-                        holderGetter.getOrThrow(ModStructureProvider.OCEAN_CABIN),
-                        new RandomSpreadStructurePlacement(
-                                10,
-                                8,
-                                RandomSpreadType.LINEAR,
-                                259410023)));
+            new StructureSet(
+                holderGetter.getOrThrow(ModStructureProvider.OCEAN_CABIN),
+                new RandomSpreadStructurePlacement(
+                    10,
+                    8,
+                    RandomSpreadType.LINEAR,
+                    259410023)));
 
         context.register(TAIGA_CABIN,
-                new StructureSet(
-                        holderGetter.getOrThrow(ModStructureProvider.TAIGA_CABIN),
-                        new RandomSpreadStructurePlacement(
-                                7,
-                                6,
-                                RandomSpreadType.LINEAR,
-                                764700120)));
+            new StructureSet(
+                holderGetter.getOrThrow(ModStructureProvider.TAIGA_CABIN),
+                new RandomSpreadStructurePlacement(
+                    7,
+                    6,
+                    RandomSpreadType.LINEAR,
+                    764700120)));
     }
 }

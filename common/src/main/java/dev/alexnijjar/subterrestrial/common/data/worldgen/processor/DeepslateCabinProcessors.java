@@ -31,8 +31,8 @@ public class DeepslateCabinProcessors {
         replace.addAll(ModProcessorListProvider.convertAll(Blocks.COBBLESTONE_WALL, Blocks.COBBLED_DEEPSLATE_WALL));
 
         context.register(REPLACE, new StructureProcessorList(ImmutableList.of(
-                new RuleProcessor(
-                        replace.build())
+            new RuleProcessor(
+                replace.build())
         )));
 
         ImmutableList.Builder<ProcessorRule> degradationReplace = ImmutableList.builder();
@@ -41,106 +41,106 @@ public class DeepslateCabinProcessors {
         degradationReplace.addAll(ModProcessorListProvider.convertOneToAll(Blocks.DARK_OAK_PLANKS, Blocks.DARK_OAK_SLAB, 0.025f));
 
         context.register(DEGRADATION_REPLACE, new StructureProcessorList(ImmutableList.of(
-                new RuleProcessor(
-                        replace.build()
+            new RuleProcessor(
+                replace.build()
+            ),
+            new RuleProcessor(degradationReplace.addAll(ImmutableList.of(
+                new ProcessorRule(
+                    new TagMatchTest(BlockTags.WOOL_CARPETS),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
                 ),
-                new RuleProcessor(degradationReplace.addAll(ImmutableList.of(
-                        new ProcessorRule(
-                                new TagMatchTest(BlockTags.WOOL_CARPETS),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new BlockMatchTest(Blocks.IRON_BLOCK),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new BlockMatchTest(Blocks.TORCH),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.COBWEB.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new BlockMatchTest(Blocks.WALL_TORCH),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.COBWEB.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new BlockMatchTest(Blocks.LANTERN),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.COBWEB.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockStateMatchTest(Blocks.DARK_OAK_LOG.defaultBlockState().setValue(RotatedPillarBlock.AXIS, Direction.Axis.Z), 0.1f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.DARK_OAK_FENCE.defaultBlockState().setValue(FenceBlock.NORTH, true).setValue(FenceBlock.SOUTH, true)
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockStateMatchTest(Blocks.DARK_OAK_LOG.defaultBlockState().setValue(RotatedPillarBlock.AXIS, Direction.Axis.X), 0.1f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.DARK_OAK_FENCE.defaultBlockState().setValue(FenceBlock.EAST, true).setValue(FenceBlock.WEST, true)
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockStateMatchTest(Blocks.STRIPPED_DARK_OAK_LOG.defaultBlockState().setValue(RotatedPillarBlock.AXIS, Direction.Axis.Z), 0.1f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.DARK_OAK_FENCE.defaultBlockState().setValue(FenceBlock.NORTH, true).setValue(FenceBlock.SOUTH, true)
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockStateMatchTest(Blocks.STRIPPED_DARK_OAK_LOG.defaultBlockState().setValue(RotatedPillarBlock.AXIS, Direction.Axis.X), 0.1f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.DARK_OAK_FENCE.defaultBlockState().setValue(FenceBlock.EAST, true).setValue(FenceBlock.WEST, true)
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.BOOKSHELF, 0.2f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.COBWEB.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.DEEPSLATE_BRICKS, 0.5f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.CRACKED_DEEPSLATE_BRICKS.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.DARK_OAK_LOG, 0.2f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.STRIPPED_DARK_OAK_LOG, 0.1f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.DARK_OAK_FENCE, 0.2f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.DARK_OAK_STAIRS, 0.05f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.DARK_OAK_SLAB, 0.2f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.DARK_OAK_PLANKS, 0.2f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.COBBLED_DEEPSLATE_WALL, 0.2f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.COBBLED_DEEPSLATE, 0.2f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        )
-                )).build())
+                new ProcessorRule(
+                    new BlockMatchTest(Blocks.IRON_BLOCK),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new BlockMatchTest(Blocks.TORCH),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.COBWEB.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new BlockMatchTest(Blocks.WALL_TORCH),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.COBWEB.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new BlockMatchTest(Blocks.LANTERN),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.COBWEB.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockStateMatchTest(Blocks.DARK_OAK_LOG.defaultBlockState().setValue(RotatedPillarBlock.AXIS, Direction.Axis.Z), 0.1f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.DARK_OAK_FENCE.defaultBlockState().setValue(FenceBlock.NORTH, true).setValue(FenceBlock.SOUTH, true)
+                ),
+                new ProcessorRule(
+                    new RandomBlockStateMatchTest(Blocks.DARK_OAK_LOG.defaultBlockState().setValue(RotatedPillarBlock.AXIS, Direction.Axis.X), 0.1f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.DARK_OAK_FENCE.defaultBlockState().setValue(FenceBlock.EAST, true).setValue(FenceBlock.WEST, true)
+                ),
+                new ProcessorRule(
+                    new RandomBlockStateMatchTest(Blocks.STRIPPED_DARK_OAK_LOG.defaultBlockState().setValue(RotatedPillarBlock.AXIS, Direction.Axis.Z), 0.1f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.DARK_OAK_FENCE.defaultBlockState().setValue(FenceBlock.NORTH, true).setValue(FenceBlock.SOUTH, true)
+                ),
+                new ProcessorRule(
+                    new RandomBlockStateMatchTest(Blocks.STRIPPED_DARK_OAK_LOG.defaultBlockState().setValue(RotatedPillarBlock.AXIS, Direction.Axis.X), 0.1f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.DARK_OAK_FENCE.defaultBlockState().setValue(FenceBlock.EAST, true).setValue(FenceBlock.WEST, true)
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.BOOKSHELF, 0.2f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.COBWEB.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.DEEPSLATE_BRICKS, 0.5f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.CRACKED_DEEPSLATE_BRICKS.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.DARK_OAK_LOG, 0.2f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.STRIPPED_DARK_OAK_LOG, 0.1f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.DARK_OAK_FENCE, 0.2f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.DARK_OAK_STAIRS, 0.05f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.DARK_OAK_SLAB, 0.2f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.DARK_OAK_PLANKS, 0.2f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.COBBLED_DEEPSLATE_WALL, 0.2f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.COBBLED_DEEPSLATE, 0.2f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                )
+            )).build())
         )));
     }
 }

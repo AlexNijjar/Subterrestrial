@@ -7,12 +7,10 @@
   "authors": [
     "Alex Nijjar"
   ],
-  "contributors": [
-  ],
   "contact": {
-    "website": "https://www.curseforge.com/minecraft/mc-mods/subterrestrial",
-    "repo": "https://github.com/Alexnijjar/${github_name}",
-    "issues": "https://github.com/Alexnijjar/${github_name}/issues"
+    "website": "https://modrinth.com/mod/subterrestrial",
+    "repo": "https://github.com/Alexnijjar/subterrestrial",
+    "issues": "https://github.com/Alexnijjar/subterrestrial/issues"
   },
   "license": "MIT",
   "icon": "icon.png",
@@ -26,7 +24,6 @@
     ]
   },
   "depends": {
-    "fabric": "*",
     "minecraft": ">=1.20"
   }
 }

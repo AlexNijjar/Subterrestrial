@@ -18,8 +18,8 @@ public class DesertCabinProcessors {
         replace.addAll(ModProcessorListProvider.convertAll(Blocks.LIME_WOOL, Blocks.SANDSTONE));
 
         context.register(REPLACE, new StructureProcessorList(ImmutableList.of(
-                new RuleProcessor(
-                        replace.build())
+            new RuleProcessor(
+                replace.build())
         )));
 
         ImmutableList.Builder<ProcessorRule> degradationReplace = ImmutableList.builder();
@@ -28,71 +28,71 @@ public class DesertCabinProcessors {
         degradationReplace.addAll(ModProcessorListProvider.convertOneToAll(Blocks.SANDSTONE, Blocks.SANDSTONE_SLAB, 0.025f));
 
         context.register(DEGRADATION_REPLACE, new StructureProcessorList(ImmutableList.of(
-                new RuleProcessor(
-                        replace.build()
+            new RuleProcessor(
+                replace.build()
+            ),
+            new RuleProcessor(degradationReplace.addAll(ImmutableList.of(
+                new ProcessorRule(
+                    new TagMatchTest(BlockTags.WOOL_CARPETS),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
                 ),
-                new RuleProcessor(degradationReplace.addAll(ImmutableList.of(
-                        new ProcessorRule(
-                                new TagMatchTest(BlockTags.WOOL_CARPETS),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new BlockMatchTest(Blocks.IRON_BLOCK),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new BlockMatchTest(Blocks.TORCH),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.COBWEB.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new BlockMatchTest(Blocks.WALL_TORCH),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.COBWEB.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new BlockMatchTest(Blocks.LANTERN),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.COBWEB.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.BOOKSHELF, 0.2f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.COBWEB.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.SANDSTONE_WALL, 0.2f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.SANDSTONE, 0.2f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.ACACIA_STAIRS, 0.2f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.ACACIA_FENCE, 0.2f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.SANDSTONE_SLAB, 0.4f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        ),
-                        new ProcessorRule(
-                                new RandomBlockMatchTest(Blocks.SANDSTONE_STAIRS, 0.2f),
-                                AlwaysTrueTest.INSTANCE,
-                                Blocks.AIR.defaultBlockState()
-                        )
-                )).build())
+                new ProcessorRule(
+                    new BlockMatchTest(Blocks.IRON_BLOCK),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new BlockMatchTest(Blocks.TORCH),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.COBWEB.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new BlockMatchTest(Blocks.WALL_TORCH),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.COBWEB.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new BlockMatchTest(Blocks.LANTERN),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.COBWEB.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.BOOKSHELF, 0.2f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.COBWEB.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.SANDSTONE_WALL, 0.2f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.SANDSTONE, 0.2f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.ACACIA_STAIRS, 0.2f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.ACACIA_FENCE, 0.2f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.SANDSTONE_SLAB, 0.4f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                ),
+                new ProcessorRule(
+                    new RandomBlockMatchTest(Blocks.SANDSTONE_STAIRS, 0.2f),
+                    AlwaysTrueTest.INSTANCE,
+                    Blocks.AIR.defaultBlockState()
+                )
+            )).build())
         )));
     }
 }

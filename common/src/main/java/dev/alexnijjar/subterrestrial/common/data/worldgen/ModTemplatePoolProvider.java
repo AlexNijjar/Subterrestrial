@@ -43,9 +43,9 @@ public class ModTemplatePoolProvider {
         }
 
         return new StructureTemplatePool(
-                empty,
-                builder.build(),
-                StructureTemplatePool.Projection.RIGID);
+            empty,
+            builder.build(),
+            StructureTemplatePool.Projection.RIGID);
     }
 
     public static StructureTemplatePool createBottomTopPools(String name, Holder.Reference<StructureTemplatePool> empty, Holder.Reference<StructureProcessorList> replace, Holder.Reference<StructureProcessorList> degradation, String append) {
@@ -62,9 +62,9 @@ public class ModTemplatePoolProvider {
         builder.add(Pair.of(StructurePoolElement.single(Subterrestrial.MOD_ID + ":cabin/" + name + "/" + append + "_3", replace), 5));
 
         return new StructureTemplatePool(
-                empty,
-                builder.build(),
-                StructureTemplatePool.Projection.RIGID);
+            empty,
+            builder.build(),
+            StructureTemplatePool.Projection.RIGID);
     }
 
     public static StructureTemplatePool createBottomPools(String name, Holder.Reference<StructureTemplatePool> empty, Holder.Reference<StructureProcessorList> replace, Holder.Reference<StructureProcessorList> degradation) {

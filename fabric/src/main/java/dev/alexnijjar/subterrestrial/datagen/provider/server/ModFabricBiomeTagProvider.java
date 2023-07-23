@@ -18,38 +18,38 @@ public class ModFabricBiomeTagProvider extends FabricTagProvider<Biome> {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         getOrCreateTagBuilder(ModTags.HAS_DEEPSLATE_CABIN).addOptionalTag(
-                ConventionalBiomeTags.IN_OVERWORLD
+            ConventionalBiomeTags.IN_OVERWORLD
         );
 
         getOrCreateTagBuilder(ModTags.HAS_DEFAULT_CABIN).forceAddTag(
-                ConventionalBiomeTags.PLAINS
+            ConventionalBiomeTags.PLAINS
         );
 
         getOrCreateTagBuilder(ModTags.HAS_DESERT_CABIN).forceAddTag(
-                ConventionalBiomeTags.DESERT
+            ConventionalBiomeTags.DESERT
         );
 
         getOrCreateTagBuilder(ModTags.HAS_ICE_CABIN).forceAddTag(
-                ConventionalBiomeTags.SNOWY
+            ConventionalBiomeTags.SNOWY
         );
 
         getOrCreateTagBuilder(ModTags.HAS_JUNGLE_CABIN).forceAddTag(
-                ConventionalBiomeTags.JUNGLE
+            ConventionalBiomeTags.JUNGLE
         );
 
         getOrCreateTagBuilder(ModTags.HAS_MESA_CABIN).forceAddTag(
-                ConventionalBiomeTags.BADLANDS
+            ConventionalBiomeTags.BADLANDS
         );
         getOrCreateTagBuilder(ModTags.HAS_MESA_CABIN).forceAddTag(
-                ConventionalBiomeTags.MESA
+            ConventionalBiomeTags.MESA
         );
 
         getOrCreateTagBuilder(ModTags.HAS_OCEAN_CABIN).forceAddTag(
-                ConventionalBiomeTags.OCEAN
+            ConventionalBiomeTags.OCEAN
         );
 
         getOrCreateTagBuilder(ModTags.HAS_TAIGA_CABIN).forceAddTag(
-                ConventionalBiomeTags.TAIGA
+            ConventionalBiomeTags.TAIGA
         );
     }
 }

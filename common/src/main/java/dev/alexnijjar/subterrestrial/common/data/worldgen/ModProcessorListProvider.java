@@ -38,9 +38,9 @@ public class ModProcessorListProvider {
             }
 
             builder.add(new ProcessorRule(
-                    new BlockStateMatchTest(state),
-                    AlwaysTrueTest.INSTANCE,
-                    modified));
+                new BlockStateMatchTest(state),
+                AlwaysTrueTest.INSTANCE,
+                modified));
         }
         return builder.build();
     }
@@ -58,9 +58,9 @@ public class ModProcessorListProvider {
             }
 
             builder.add(new ProcessorRule(
-                    new RandomBlockMatchTest(input, probability),
-                    AlwaysTrueTest.INSTANCE,
-                    state));
+                new RandomBlockMatchTest(input, probability),
+                AlwaysTrueTest.INSTANCE,
+                state));
         }
         return builder.build();
     }

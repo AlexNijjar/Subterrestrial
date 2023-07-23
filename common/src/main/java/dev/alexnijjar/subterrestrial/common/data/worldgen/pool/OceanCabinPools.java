@@ -36,9 +36,9 @@ public class OceanCabinPools {
         builder.add(Pair.of(StructurePoolElement.single(Subterrestrial.MOD_ID + ":cabin/ocean/base_lower_0", replace), 5));
 
         context.register(BASE, new StructureTemplatePool(
-                empty,
-                builder.build(),
-                StructureTemplatePool.Projection.RIGID));
+            empty,
+            builder.build(),
+            StructureTemplatePool.Projection.RIGID));
 
         ImmutableList.Builder<Pair<Function<StructureTemplatePool.Projection, ? extends StructurePoolElement>, Integer>> builder1 = ImmutableList.builder();
         builder1.add(Pair.of(StructurePoolElement.single(Subterrestrial.MOD_ID + ":cabin/ocean/bottom_0", degradationReplace), 100));
@@ -51,8 +51,8 @@ public class OceanCabinPools {
         builder1.add(Pair.of(StructurePoolElement.single(Subterrestrial.MOD_ID + ":cabin/ocean/bottom_3", replace), 5));
 
         context.register(BOTTOM, new StructureTemplatePool(
-                empty,
-                builder1.build(),
-                StructureTemplatePool.Projection.RIGID));
+            empty,
+            builder1.build(),
+            StructureTemplatePool.Projection.RIGID));
     }
 }
