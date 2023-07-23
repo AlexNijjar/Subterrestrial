@@ -17,10 +17,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.alexnijjar.subterrestrial.fabric.SubterrestrialFabric"
+      "tech.alexnijjar.subterrestrial.fabric.SubterrestrialFabric"
     ],
     "fabric-datagen": [
-      "dev.alexnijjar.subterrestrial.datagen.SubterrestrialFabricDataGenerator"
+      "tech.alexnijjar.subterrestrial.datagen.SubterrestrialFabricDataGenerator"
     ]
   },
   "depends": {
