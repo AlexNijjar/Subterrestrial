@@ -1,0 +1,15 @@
+// 1.20.1	2023-07-23T18:12:09.468137	Loot Tables
+8b5682e55062829f49d667216fe01847f671581d data/minecraft/loot_tables/chests/jungle_temple_dispenser.json
+b2dcebbb401710e45944114c55799464e98cfb93 data/subterrestrial/loot_tables/chests/cabin/bedroom.json
+cd8a44431f175c61518270ce0733de9c63327544 data/subterrestrial/loot_tables/chests/cabin/beekeeping.json
+830bf515ba0e7ef9a5d9dfdf56c26a9e11e6e08b data/subterrestrial/loot_tables/chests/cabin/blocks.json
+7e6fefb78a054582ead40c7c027cfd980d8042ea data/subterrestrial/loot_tables/chests/cabin/brewing.json
+d2552ec574139a3f573e9c53ee248b7deb34e671 data/subterrestrial/loot_tables/chests/cabin/enchanting.json
+b6a9ca15c46432e3162ff6dbe4aa0228bcce9d0b data/subterrestrial/loot_tables/chests/cabin/enhanced_enchanting.json
+301a9f8e50eccab752c2a6c18cf103af79af6296 data/subterrestrial/loot_tables/chests/cabin/enhanced_metalworks.json
+8d293c337ff42ff82b70819013d79b387aab99fe data/subterrestrial/loot_tables/chests/cabin/fletching.json
+378cbc527598a61d565e88ede3727e0dd6562990 data/subterrestrial/loot_tables/chests/cabin/kitchen.json
+f7debfde164f1b49657a72abcde3d2b9b2cfd89c data/subterrestrial/loot_tables/chests/cabin/main.json
+eb51a355ad225fd57efbe5b53cfd17d33d7b296a data/subterrestrial/loot_tables/chests/cabin/metalworks.json
+d15e9f27c43749990a89538cc9ce136be67b7f42 data/subterrestrial/loot_tables/chests/cabin/music.json
+49b315a8e208ebb18fca91f151b8788e15141a7e data/subterrestrial/loot_tables/chests/cabin/weaving.json

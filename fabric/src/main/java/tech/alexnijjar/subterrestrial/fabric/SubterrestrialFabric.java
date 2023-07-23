@@ -1,7 +1,7 @@
 package tech.alexnijjar.subterrestrial.fabric;
 
-import tech.alexnijjar.subterrestrial.Subterrestrial;
 import net.fabricmc.api.ModInitializer;
+import tech.alexnijjar.subterrestrial.Subterrestrial;
 
 public class SubterrestrialFabric implements ModInitializer {
     @Override

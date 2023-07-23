@@ -1,9 +1,0 @@
-// 1.19.4	2023-03-29T00:36:51.810821	Tags for minecraft:worldgen/biome mod id subterrestrial
-c6aef98db83f0c11bf8d51cc25753aa1f9e1c75a data/subterrestrial/tags/worldgen/biome/has_structure/deepslate_cabin.json
-a684b84762cf0f4c7bfc58ffeecb312a9a7daa49 data/subterrestrial/tags/worldgen/biome/has_structure/default_cabin.json
-b239759106887fb0773db01d9f437667be224825 data/subterrestrial/tags/worldgen/biome/has_structure/desert_cabin.json
-d4d9e1babb4d911edad88dd00181e0ab51c34fd1 data/subterrestrial/tags/worldgen/biome/has_structure/ice_cabin.json
-d813700114809e7faf41aabbc58ef54b88cebf54 data/subterrestrial/tags/worldgen/biome/has_structure/jungle_cabin.json
-45707864d688ef531d52bd0287366ea1e7736874 data/subterrestrial/tags/worldgen/biome/has_structure/mesa_cabin.json
-40cc022740519f84724a2a691296afd5946b433e data/subterrestrial/tags/worldgen/biome/has_structure/ocean_cabin.json
-fac434c3963b6f7a2ece93de399cec03b1514182 data/subterrestrial/tags/worldgen/biome/has_structure/taiga_cabin.json
